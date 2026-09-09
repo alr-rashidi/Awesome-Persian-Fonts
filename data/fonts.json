@@ -598,6 +598,40 @@
     "source-link": "https://github.com/rastikerdar/vazir-code-font"
   },
   {
+    "family": "vira",
+    "style": {
+      "en": "Monospace",
+      "fa": "تک‌فاصله"
+    },
+    "Designer": {
+      "en": "Sina Omrani",
+      "fa": "سینا عمرانی"
+    },
+    "supportedLanguages": [
+      "ar",
+      "fa",
+      "la"
+    ],
+    "name": {
+      "en": "Vira",
+      "fa": "ویرا"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A hybrid monospaced font combining Fira Code and Vazir Code with ligature support. Ideal for programming with both Latin and Persian scripts.",
+      "fa": "فونت تک‌فاصلهٔ ترکیبی از Fira Code و وزیرکد با پشتیبانی از لیگچر. ایده‌آل برای برنامه‌نویسی با هر دو خط لاتین و فارسی."
+    },
+    "woff2": {
+      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vira-400.woff2"
+    },
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/Vira.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vira.zip",
+    "source-link": "https://github.com/huzwares/Vira"
+  },
+  {
     "family": "zira-code",
     "style": {
       "en": "Monospace",
