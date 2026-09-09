@@ -548,10 +548,6 @@
       "en": "A free and practical Persian sans-serif with good readability. Includes a screen-optimized variant (IranSansZ) for low-resolution displays.",
       "fa": "سنس‌سریف آزاد و کاربردی فارسی با خوانایی خوب. نسخهٔ بهینه‌شده برای صفحه (ایران‌سنس‌زد) نیز برای وضوح پایین موجود است."
     },
-    "note": {
-      "en": "Screen-optimized variant for low resolutions (IranSansZ) also available: https://fontlibrary.org/en/font/iransansz",
-      "fa": "نسخهٔ بهینه‌شدهٔ ایرانیان سنس برای وضوح پایین (ایران‌سنس‌زد) نیز موجود است: https://fontlibrary.org/en/font/iransansz"
-    },
     "woff2": {
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-sans-400.woff2",
       "800": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-sans-800.woff2"
