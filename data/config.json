@@ -1,0 +1,28 @@
+{
+  "sectionsDir": "data/sections",
+  "notesSection": {
+    "title": { "en": "Notes", "fa": "نکته‌ها" }
+  },
+  "languages": [
+    { "code": "en", "output": "README.md", "dir": "ltr" },
+    { "code": "fa", "output": "README-fa.md", "dir": "rtl", "digits": "persian" }
+  ],
+  "columns": [
+    { "id": "name", "title": { "en": "Project", "fa": "نام پروژه" }, "align": "center" },
+    { "id": "license", "title": { "en": "License", "fa": "مجوز" }, "align": "center" },
+    { "id": "description", "title": { "en": "Description", "fa": "توضیحات" }, "align": "center" },
+    { "id": "usage", "title": { "en": "Usage", "fa": "کاربرد" }, "align": "center" },
+    {
+      "id": "weights",
+      "title": { "en": "Weights", "fa": "وزن‌ها" },
+      "align": "center",
+      "type": "weights",
+      "singular": { "en": "", "fa": "" },
+      "plural": { "en": "", "fa": "" },
+      "variableSuffix": { "en": "\n+V", "fa": "\n+متغیر" }
+    },
+    { "id": "note", "title": { "en": "Note", "fa": "نکته" }, "align": "center", "type": "note" },
+    { "id": "preview-image", "title": { "en": "Preview", "fa": "پیش‌نمایش" }, "align": "center", "width": 500 },
+    { "id": "link", "title": { "en": "Website", "fa": "وبگاه" }, "align": "center", "type": "link", "label": { "en": "Link", "fa": "لینک" } }
+  ]
+}

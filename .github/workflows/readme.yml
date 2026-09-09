@@ -1,0 +1,41 @@
+name: Generate README
+
+on:
+  push:
+    branches: [main] # change if your default branch differs
+    paths:
+      - "data/fonts.json"
+      - "data/config.json"
+      - "data/sections/**"
+      - "scripts/**"
+      - ".github/workflows/readme.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-readme
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate README files
+        run: python3 scripts/generate_readme.py
+
+      - name: Commit and push (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes - README files are already up to date."
+          else
+            git commit -m "chore: regenerate README files [skip ci]"
+            git push
+          fi
