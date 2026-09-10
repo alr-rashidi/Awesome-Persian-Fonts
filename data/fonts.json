@@ -36,7 +36,7 @@
       "count": 9,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Vazirmatn.webp",
+    "preview-image": "./data/preview-images/vazirmatn.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vazirmatn-v33.003.zip",
     "source-link": "https://github.com/rastikerdar/vazirmatn"
   },
@@ -71,12 +71,13 @@
       "count": 10,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Arad.webp",
+    "variants": ["Dots2","Dots3"],
+    "preview-image": "./data/preview-images/arad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Arad_2.5.0.zip",
     "source-link": "https://github.com/MohamadDarvishi/Arad"
   },
   {
-    "family": "normal-sans",
+    "family": "aq-normal-sans",
     "style": {
       "en": "Sans",
       "fa": "سنس"
@@ -105,7 +106,7 @@
       "count": 9,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Normal_Sans.webp",
+    "preview-image": "./data/preview-images/aq-normal-sans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/AQNormalSans-v1.0.0.zip",
     "source-link": "https://github.com/AzadQalam/normal-sans"
   },
@@ -142,7 +143,7 @@
     "weights": {
       "count": 3
     },
-    "preview-image": "./data/preview-images/Samim.webp",
+    "preview-image": "./data/preview-images/samim.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/samim-font-v4.0.5.zip",
     "source-link": "https://github.com/rastikerdar/samim-font"
   },
@@ -178,7 +179,7 @@
     "weights": {
       "count": 5
     },
-    "preview-image": "./data/preview-images/Shabnam.webp",
+    "preview-image": "./data/preview-images/shabnam.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/shabnam-font-v5.0.1.zip",
     "source-link": "https://github.com/rastikerdar/shabnam-font"
   },
@@ -216,7 +217,7 @@
       "count": 9,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Estedad.webp",
+    "preview-image": "./data/preview-images/estedad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Estedad-v8.5.zip",
     "source-link": "https://github.com/aminabedi68/Estedad"
   },
@@ -254,7 +255,7 @@
     "weights": {
       "count": 5
     },
-    "preview-image": "./data/preview-images/Sepehr.webp",
+    "preview-image": "./data/preview-images/sepehr.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/sepehr-fonts-main.zip",
     "source-link": "https://github.com/googlefonts/sepehr-fonts"
   },
@@ -288,7 +289,7 @@
       "count": 5,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Sahel.webp",
+    "preview-image": "./data/preview-images/sahel.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/sahel-font-v3.4.0.zip",
     "source-link": "https://github.com/rastikerdar/sahel-font"
   },
@@ -322,7 +323,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Nahid.webp",
+    "preview-image": "./data/preview-images/nahid.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nahid-font-v0.3.0.zip",
     "source-link": "https://github.com/rastikerdar/nahid-font"
   },
@@ -333,8 +334,8 @@
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -356,7 +357,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/XM_Yekan.webp",
+    "preview-image": "./data/preview-images/xm-yekan.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xm-yekan.zip",
     "source-link": "https://fontlibrary.org/en/font/xm-yekan"
   },
@@ -367,8 +368,8 @@
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Sharif FarsiWeb Inc.",
+      "fa": "شرکت فارسی‌وب شریف"
     },
     "supportedLanguages": [
       "ar",
@@ -389,19 +390,19 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Elham.webp",
+    "preview-image": "./data/preview-images/elham.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/elham.ttf",
     "source-link": "github.com/behnam/fonts-farsiweb"
   },
   {
-    "family": "ganjnameh",
+    "family": "ganjnamehSans",
     "style": {
       "en": "Sans",
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -422,7 +423,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Ganjnameh.webp",
+    "preview-image": "./data/preview-images/ganjnamehSans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/ganjnameh.0.0.4.zip",
     "source-link": "https://github.com/font-store/GanjnamehFont"
   },
@@ -433,8 +434,8 @@
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -455,7 +456,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Behdad.webp",
+    "preview-image": "./data/preview-images/behdad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Behdad-1.0.0.zip",
     "source-link": "https://github.com/font-store/BehdadFont"
   },
@@ -466,8 +467,8 @@
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Sharif FarsiWeb Inc.",
+      "fa": "شرکت فارسی‌وب شریف"
     },
     "supportedLanguages": [
       "ar",
@@ -488,7 +489,7 @@
     "woff2": {
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/koodak-400.woff2"
     },
-    "preview-image": "./data/preview-images/Koodak.webp",
+    "preview-image": "./data/preview-images/koodak.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/koodak.zip",
     "source-link": "https://fontlibrary.org/en/font/koodak"
   },
@@ -521,7 +522,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Shahab.webp",
+    "preview-image": "./data/preview-images/shahab.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/shahab.0.0.2.zip",
     "source-link": "https://github.com/font-store/ShahabFont"
   },
@@ -532,8 +533,8 @@
       "fa": "سنس"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Hooman Mehr, Hadi Navid",
+      "fa": "هومن مهر، هادی نوید،"
     },
     "supportedLanguages": [
       "ar",
@@ -555,9 +556,214 @@
     "weights": {
       "count": 2
     },
-    "preview-image": "./data/preview-images/Iranian_Sans.webp",
+    "preview-image": "./data/preview-images/iranian-sans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/iranian-sans.zip",
     "source-link": "https://fontlibrary.org/en/font/iranian-sans"
+  },
+  {
+    "family": "lemonada",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Mohamed Gaber",
+      "fa": "محمد جابر"
+    },
+    "supportedLanguages": [
+      "ar",
+      "fa",
+      "la",
+      "ur"
+    ],
+    "name": {
+      "en": "Lemonada",
+      "fa": "لمونادا"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A friendly rounded Arabic-Latin sans-serif, offered as a variable font from Light to Bold.",
+      "fa": "سنس‌سریف گرد و دوستانهٔ عربی-لاتین که به‌صورت متغیر از Light تا Bold عرضه می‌شود."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lemonada.woff2",
+    "weights": {
+      "count": 5,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/lemonada.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/lemonada",
+    "source-link": "https://fonts.google.com/specimen/Lemonada"
+  },
+  {
+    "family": "alan-sans",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Alper Karatepe",
+      "fa": "آلپ کاراتپه"
+    },
+    "supportedLanguages": [
+      "la"
+    ],
+    "name": {
+      "en": "Alan Sans",
+      "fa": "الن سنس"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A contemporary grotesque sans-serif with a wide weight range and clean geometric forms.",
+      "fa": "گروتسک مدرن با طیف گستردهٔ وزن و فرم‌های هندسی تمیز. فقط از الفبای لاتین پشتیبانی می‌کند."
+    },
+    "note": {
+      "en": "Latin-only — does NOT support Persian/Arabic scripts.",
+      "fa": "فقط لاتین است و برای فارسی مناسب نیست؛ احتمالاً نباید در دیتاست فارسی باشد."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/alan_sans.woff2",
+    "weights": {
+      "count": 9,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/alan-sans.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/alansans",
+    "source-link": "https://fonts.google.com/specimen/Alan+Sans"
+  },
+  {
+    "family": "almarai",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Boutros",
+      "fa": "بوتروس"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Almarai",
+      "fa": "المراعی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A simple and functional Arabic sans-serif with four weights, suitable for text and interfaces.",
+      "fa": "سنس‌سریف ساده و کاربردی عربی با چهار وزن؛ مناسب متن و رابط کاربری."
+    },
+    "woff2": {
+      "300": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-300.woff2",
+      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-400.woff2",
+      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-700.woff2",
+      "800": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-800.woff2"
+    },
+    "weights": {
+      "count": 4
+    },
+    "preview-image": "./data/preview-images/almarai.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/almarai",
+    "source-link": "https://fonts.google.com/specimen/Almarai"
+  },
+  {
+    "family": "changa",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Eduardo Tunni",
+      "fa": "ادواردو تونی"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Changa",
+      "fa": "چنگا"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A semi-condensed Arabic-Latin sans-serif with a broad weight range, usable for both headings and text.",
+      "fa": "سنس‌سریف نیمه‌فشردهٔ عربی-لاتین با طیف گستردهٔ وزن؛ هم برای تیتر و هم متن."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/changa.woff2",
+    "weights": {
+      "count": 7,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/changa.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/changa",
+    "source-link": "https://fonts.google.com/specimen/Changa"
+  },
+  {
+    "family": "el-messiri",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Mohamed Gaber",
+      "fa": "محمد جابر"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "El Messiri",
+      "fa": "المسیری"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic-Latin sans-serif with a calligraphic flavor; Latin and Cyrillic glyphs were developed in collaboration with other designers.",
+      "fa": "سنس‌سریف عربی-لاتین با لحنی خوشنویسانه؛ حروف لاتین و سیریلیک با همکاری طراحان دیگر توسعه یافته‌اند."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/el-messiri.woff2",
+    "weights": {
+      "count": 4,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/el-messiri.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/elmessiri",
+    "source-link": "https://fonts.google.com/specimen/El+Messiri"
+  },
+  {
+    "family": "harmattan",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سازمان SIL"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Harmattan",
+      "fa": "هارماتان"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic-Latin typeface by SIL for West African languages; legible at small sizes.",
+      "fa": "فونت عربی-لاتین از سازمان SIL برای زبان‌های آفریقای غربی؛ خوانا در اندازه‌های کوچک."
+    },
+    "woff2": {
+      "300": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-400.woff2",
+      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-500.woff2",
+      "600": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-600.woff2",
+      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-700.woff2"
+    },
+    "weights": {
+      "count": 4
+    },
+    "preview-image": "./data/preview-images/harmattan.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/harmattan",
+    "source-link": "https://fonts.google.com/specimen/Harmattan"
   },
   {
     "family": "vazir-code",
@@ -589,7 +795,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Vazir_Code.webp",
+    "preview-image": "./data/preview-images/vazir-code.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vazir-code-font-v1.1.2.zip",
     "source-link": "https://github.com/rastikerdar/vazir-code-font"
   },
@@ -623,7 +829,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Vira.webp",
+    "preview-image": "./data/preview-images/vira.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vira.zip",
     "source-link": "https://github.com/huzwares/Vira"
   },
@@ -662,7 +868,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Zira_Code.webp",
+    "preview-image": "./data/preview-images/zira-code.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/zira-code-font-v2.0.0.zip",
     "source-link": "https://github.com/kiamazi/zira-code-font"
   },
@@ -702,7 +908,7 @@
     "weights": {
       "count": 4
     },
-    "preview-image": "./data/preview-images/Amiri.webp",
+    "preview-image": "./data/preview-images/amiri.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Amiri-1.003.zip",
     "source-link": "https://github.com/aliftype/amiri"
   },
@@ -738,7 +944,7 @@
     "weights": {
       "count": 2
     },
-    "preview-image": "./data/preview-images/Parastoo.webp",
+    "preview-image": "./data/preview-images/parastoo.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/parastoo-font-v2.0.1.zip",
     "source-link": "https://github.com/rastikerdar/parastoo-font"
   },
@@ -772,7 +978,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Gandom.webp",
+    "preview-image": "./data/preview-images/gandom.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/gandom-font-v0.8.zip",
     "source-link": "https://github.com/rastikerdar/gandom-font"
   },
@@ -814,7 +1020,7 @@
     "weights": {
       "count": 4
     },
-    "preview-image": "./data/preview-images/Mirza.webp",
+    "preview-image": "./data/preview-images/mirza.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Mirza.zip",
     "source-link": "https://github.com/Tarobish/Mirza"
   },
@@ -853,7 +1059,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Katibeh.webp",
+    "preview-image": "./data/preview-images/katibeh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Katibeh-Regular.ttf",
     "source-link": "https://github.com/Tarobish/Katibeh"
   },
@@ -864,8 +1070,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -886,7 +1092,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Nika.webp",
+    "preview-image": "./data/preview-images/nika.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nika.v1.0.0.zip",
     "source-link": "https://github.com/font-store/NikaFont"
   },
@@ -897,8 +1103,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -919,7 +1125,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Farbod.webp",
+    "preview-image": "./data/preview-images/farbod.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Farbod-3.2.5.zip",
     "source-link": "https://github.com/font-store/FarbodFont"
   },
@@ -930,8 +1136,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Abbas Izad",
+      "fa": "عباس ایزد"
     },
     "supportedLanguages": [
       "ar",
@@ -954,7 +1160,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/freefarsi-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/freefarsi-700.woff2"
     },
-    "preview-image": "./data/preview-images/FreeFarsi.webp",
+    "preview-image": "./data/preview-images/freefarsi.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/freefarsi.zip",
     "source-link": "https://fontlibrary.org/en/font/freefarsi"
   },
@@ -965,8 +1171,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Sharif Farsiweb Inc.",
+      "fa": "شرکت فارسی‌وب شریف"
     },
     "supportedLanguages": [
       "ar",
@@ -987,7 +1193,7 @@
     "woff2": {
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/homa-400.woff2"
     },
-    "preview-image": "./data/preview-images/Homa.webp",
+    "preview-image": "./data/preview-images/homa.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/homa.ttf",
     "source-link": "https://github.com/behnam/fonts-farsiweb"
   },
@@ -998,8 +1204,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Damoon Khanjanzadeh",
+      "fa": "دامون خانجان‌زاده"
     },
     "supportedLanguages": [
       "ar",
@@ -1024,7 +1230,7 @@
     "weights": {
       "count": 3
     },
-    "preview-image": "./data/preview-images/Free_Persian_Font.webp",
+    "preview-image": "./data/preview-images/pfont.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/pfont.zip",
     "source-link": "https://github.com/pfont/pfont"
   },
@@ -1035,8 +1241,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Sharif FarsiWeb Inc.",
+      "fa": "شرکت شریف فارسی‌وب"
     },
     "supportedLanguages": [
       "ar",
@@ -1059,7 +1265,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nazli-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nazli-700.woff2"
     },
-    "preview-image": "./data/preview-images/Nazli.webp",
+    "preview-image": "./data/preview-images/nazli.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nazli.zip",
     "source-link": "https://fontlibrary.org/en/font/nazli"
   },
@@ -1070,8 +1276,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Sharif Farsiweb Inc.",
+      "fa": "شرکت شریف فارسی‌وب"
     },
     "supportedLanguages": [
       "ar",
@@ -1097,9 +1303,41 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/roya-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/roya-700.woff2"
     },
-    "preview-image": "./data/preview-images/Roya.webp",
+    "preview-image": "./data/preview-images/roya.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/roya.zip",
     "source-link": "https://fontlibrary.org/en/font/roya"
+  },
+  {
+    "family": "lateef",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سازمان SIL"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la",
+      "sd"
+    ],
+    "name": {
+      "en": "Lateef",
+      "fa": "لطیف"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A Naskh-style Arabic-Latin typeface from SIL, originally developed for Sindhi.",
+      "fa": "فونت عربی-لاتین از سازمان SIL در سبک نسخ؛ در اصل برای زبان سندی طراحی شده است."
+    },
+    "woff2": "https://fonts.googleapis.com/css2?family=Lateef:wght@400;500;600;700&display=swap",
+    "weights": {
+      "count": 4
+    },
+    "preview-image": "./data/preview-images/lateef.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/lateef",
+    "source-link": "https://fonts.google.com/specimen/Lateef"
   },
   {
     "family": "xb-yas",
@@ -1108,8 +1346,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1136,7 +1374,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yas-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yas-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Yas.webp",
+    "preview-image": "./data/preview-images/xb-yas.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Yas.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-yas"
   },
@@ -1147,8 +1385,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1175,7 +1413,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-riyaz-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-riyaz-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Riyaz.webp",
+    "preview-image": "./data/preview-images/xb-riyaz.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Riyaz.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-riyaz"
   },
@@ -1186,8 +1424,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1214,7 +1452,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-zar-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-zar-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Zar.webp",
+    "preview-image": "./data/preview-images/xb-zar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Zar.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-zar"
   },
@@ -1225,8 +1463,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1253,7 +1491,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Shafigh.webp",
+    "preview-image": "./data/preview-images/xb-shafigh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-shafigh"
   },
@@ -1264,8 +1502,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1292,7 +1530,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-kurd-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-kurd-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Shafigh_Kurd.webp",
+    "preview-image": "./data/preview-images/xb-shafigh-kurd.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh Kurd.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-shafigh-kurd"
   },
@@ -1303,8 +1541,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1331,7 +1569,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-uzbek-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-uzbek-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Shafigh_Uzbek.webp",
+    "preview-image": "./data/preview-images/xb-shafigh-uzbek.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh Uzbek.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-shafigh-uzbek"
   },
@@ -1342,8 +1580,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1370,7 +1608,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xm-traffic-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xm-traffic-700.woff2"
     },
-    "preview-image": "./data/preview-images/XM_Traffic.webp",
+    "preview-image": "./data/preview-images/xm-traffic.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Traffic.zip",
     "source-link": "https://fontlibrary.org/en/font/xm-traffic"
   },
@@ -1381,8 +1619,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1409,7 +1647,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-kayhan-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-kayhan-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Kayhan_(minified).webp",
+    "preview-image": "./data/preview-images/xb-kayhan.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xb-kayhan-minified.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-kayhan-minified"
   },
@@ -1420,8 +1658,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1448,7 +1686,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-niloofar-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-niloofar-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Niloofar.webp",
+    "preview-image": "./data/preview-images/xb-niloofar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Niloofar.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-niloofar"
   },
@@ -1459,8 +1697,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1487,7 +1725,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-sols-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-sols-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Sols.webp",
+    "preview-image": "./data/preview-images/xb-sols.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Sols.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-sols"
   },
@@ -1498,8 +1736,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1526,7 +1764,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yagut-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yagut-700.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Yagut.webp",
+    "preview-image": "./data/preview-images/xb-yagut.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Yagut.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-yagut"
   },
@@ -1537,8 +1775,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -1564,7 +1802,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Noon.webp",
+    "preview-image": "./data/preview-images/noon.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Noon-Regular.zip",
     "source-link": "https://github.com/font-store/NoonFont"
   },
@@ -1575,8 +1813,8 @@
       "fa": "سریف"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Hooman Mehr, Hadi Navid",
+      "fa": "هومن مهر، هادی نوید،"
     },
     "supportedLanguages": [
       "ar",
@@ -1597,7 +1835,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Iranian_Serif.webp",
+    "preview-image": "./data/preview-images/iranian-serif.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/iranian-serif.zip",
     "source-link": "https://fontlibrary.org/en/font/iranian-serif"
   },
@@ -1632,7 +1870,7 @@
       "count": 9,
       "variable": true
     },
-    "preview-image": "./data/preview-images/Mikhak.webp",
+    "preview-image": "./data/preview-images/mikhak.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Mikhak-v3.4.zip",
     "source-link": "https://github.com/aminabedi68/Mikhak"
   },
@@ -1666,7 +1904,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Tanha.webp",
+    "preview-image": "./data/preview-images/tanha.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/tanha-font-v0.10.zip",
     "source-link": "https://github.com/rastikerdar/tanha-font"
   },
@@ -1677,8 +1915,8 @@
       "fa": "صمیمی"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1705,12 +1943,12 @@
       "200": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-paatch-200.woff2",
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-paatch-400.woff2"
     },
-    "preview-image": "./data/preview-images/XP_Paatch.webp",
+    "preview-image": "./data/preview-images/xp-paatch.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xp-paatch.zip",
     "source-link": "https://fontlibrary.org/en/font/xp-paatch"
   },
   {
-    "family": "rooyin",
+    "family": "rooyinFree",
     "style": {
       "en": "Pixel",
       "fa": "پیکسلی"
@@ -1742,7 +1980,7 @@
     "weights": {
       "count": 2
     },
-    "preview-image": "./data/preview-images/Rooyin.webp",
+    "preview-image": "./data/preview-images/rooyinFree.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Rooyin-Free.zip",
     "source-link": "https://github.com/MohamadDarvishi/Rooyin"
   },
@@ -1782,7 +2020,7 @@
     "weights": {
       "count": 2
     },
-    "preview-image": "./data/preview-images/Sorena.webp",
+    "preview-image": "./data/preview-images/sorena.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Sorena.zip",
     "source-link": "https://github.com/MohamadDarvishi/Sorena"
   },
@@ -1816,7 +2054,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Noqte.webp",
+    "preview-image": "./data/preview-images/noqte.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/noqte.ttf",
     "source-link": "https://github.com/mehdisadeghi/Noqte"
   },
@@ -1852,7 +2090,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Ario.webp",
+    "preview-image": "./data/preview-images/ario.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Ario_2.0.1.zip",
     "source-link": "https://github.com/MohamadDarvishi/Ario"
   },
@@ -1887,7 +2125,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Lalezar.webp",
+    "preview-image": "./data/preview-images/lalezar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lalezar-Regular.ttf",
     "source-link": "https://github.com/BornaIz/Lalezar"
   },
@@ -1922,7 +2160,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Ghadim.webp",
+    "preview-image": "./data/preview-images/mim-bold.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Ghadim Font.zip",
     "source-link": "https://t.me/fonthacom"
   },
@@ -1961,7 +2199,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Jomhuria.webp",
+    "preview-image": "./data/preview-images/jomhuria.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Jomhuria-Regular.ttf",
     "source-link": "https://github.com/Tarobish/Jomhuria"
   },
@@ -1972,8 +2210,8 @@
       "fa": "عنوان"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -1999,19 +2237,292 @@
     "woff2": {
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-titre-400.woff2"
     },
-    "preview-image": "./data/preview-images/XB_Titre.webp",
+    "preview-image": "./data/preview-images/xb-titre.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xb-titre.zip",
     "source-link": "https://fontlibrary.org/en/font/xb-titre"
   },
   {
-    "family": "iran-nastaliq",
+    "family": "badeen-display",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Hani Alasadi",
+      "fa": "هانی الاسدی"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Badeen Display",
+      "fa": "بدین دیسپلی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic display typeface with a bold, poster-like character for headlines and branding.",
+      "fa": "فونت نمایشی عربی با شخصیت ضخیم و پوستری؛ مناسب تیتر و برندینگ."
+    },
+    "woff2": {
+      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/badeen-display-400.woff2"
+    },
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/badeen-display.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/badeendisplay",
+    "source-link": "https://fonts.google.com/specimen/Badeen+Display"
+  },
+  {
+    "family": "blaka",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Mohamed Gaber",
+      "fa": "محمد جابر"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Blaka",
+      "fa": "بلاکا"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A heavy Arabic display face with a strong, distinctive character for titles.",
+      "fa": "فونت نمایشی ضخیم عربی با شخصیت قوی و متمایز؛ مناسب عناوین."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/blaka-400.woff2",
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/blaka.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/blaka",
+    "source-link": "https://fonts.google.com/specimen/Blaka"
+  },
+  {
+    "family": "gulzar",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Borna Izadpanah",
+      "fa": "برنا ایزدپناه"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la",
+      "ur"
+    ],
+    "name": {
+      "en": "Gulzar",
+      "fa": "گلزار"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A Nastaliq typeface designed primarily for Urdu, suitable for poetry and literary texts.",
+      "fa": "فونت نستعلیق که در اصل برای زبان اردو طراحی شده؛ مناسب شعر و متون ادبی."
+    },
+    "note": {
+      "en": "Like all Nastaliq fonts, it requires generous line-height.",
+      "fa": "مانند همهٔ فونت‌های نستعلیق به line-height بزرگ نیاز دارد."
+    },
+    "woff2": {
+      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/gulzar-400.woff2"
+    },
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/gulzar.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/gulzar",
+    "source-link": "https://fonts.google.com/specimen/Gulzar"
+  },
+  {
+    "family": "handjet",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "David Březina",
+      "fa": "دیوید برزینا"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Handjet",
+      "fa": "هندجت"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A variable pixel font with customizable element-shape and grid axes, covering dozens of scripts.",
+      "fa": "فونت پیکسلی متغیر با محورهای قابل‌تنظیم شکل و شبکهٔ عناصر؛ پشتیبانی از ده‌ها خط نوشتاری."
+    },
+    "note": {
+      "en": "In addition to weight, it has ELGR (grid) and ELSH (shape) variable axes.",
+      "fa": "علاوه بر وزن، محورهای متغیر ELGR (شبکه) و ELSH (شکل) دارد."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/handjet.woff2",
+    "weights": {
+      "count": 9,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/handjet.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/handjet",
+    "source-link": "https://fonts.google.com/specimen/Handjet"
+  },
+  {
+    "family": "marhey",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Nur Syamsi + Bustanul Arifin",
+      "fa": "نور سیامسی + بستان‌الا‌ارفین"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Marhey",
+      "fa": "مرحی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A playful Arabic display typeface with a variable weight axis.",
+      "fa": "فونت نمایشی شاد و سرگرم‌کنندهٔ عربی با محور وزن متغیر."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/marhey.woff2",
+    "weights": {
+      "count": 5,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/marhey.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/marhey",
+    "source-link": "https://fonts.google.com/specimen/Marhey"
+  },
+  {
+    "family": "noto-nastaliq-urdu",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Noto Project (Google)",
+      "fa": "پروژهٔ نوتو (گوگل)"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la",
+      "ur"
+    ],
+    "name": {
+      "en": "Noto Nastaliq Urdu",
+      "fa": "نوتو نستعلیق اردو"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "Google's Nastaliq typeface for Urdu, part of the Noto project.",
+      "fa": "فونت نستعلیق اردو از پروژهٔ نوتو گوگل."
+    },
+    "note": {
+      "en": "Single weight only; tall line-height required.",
+      "fa": "فقط یک وزن دارد؛ به line-height بلند نیاز دارد."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noto-nastaliq-urdu.woff2",
+    "weights": {
+      "count": 2,
+      "variable": true
+    },
+    "preview-image": "./data/preview-images/noto-nastaliq-urdu.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/notonastaliqurdu",
+    "source-link": "https://fonts.google.com/specimen/Noto+Nastaliq+Urdu"
+  },
+  {
+    "family": "oi",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Kostas Bartsokas",
+      "fa": "کوستاس بارتسوکاس"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Oi",
+      "fa": "اوی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An ultra-bold Arabic-Latin display face with a bold, playful character.",
+      "fa": "فونت نمایشی فوق‌ضخیم عربی-لاتین با شخصیت قوی و نمایشی."
+    },
+    "woff2": {
+    "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/oi-400.woff2"
+    },
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/oi.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/oi",
+    "source-link": "https://fonts.google.com/specimen/Oi"
+  },
+  {
+    "family": "vibes",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "AbdElmomen Kadhim",
+      "fa": "عبدالمؤمن کاظم"
+    },
+    "supportedLanguages": [
+      "ar",
+      "la"
+    ],
+    "name": {
+      "en": "Vibes",
+      "fa": "وایبز"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic-Latin display typeface with a retro, funky personality.",
+      "fa": "فونت نمایشی عربی-لاتین با حس رترو و پرهیجان."
+    },
+    "woff2": {
+    "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vibes-400.woff2"
+    },
+    "weights": {
+      "count": 1
+    },
+    "preview-image": "./data/preview-images/vibes.webp",
+    "download-link": "https://github.com/google/fonts/tree/main/ofl/vibes",
+    "source-link": "https://fonts.google.com/specimen/Vibes"
+  },
+  {
+    "family": "iranNastaliq",
     "style": {
       "en": "Nastaliq",
       "fa": "نستعلیق"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Mohammad Saleh Souzanchi",
+      "fa": "محمد صالح سوزنچی"
     },
     "supportedLanguages": [
       "ar",
@@ -2038,7 +2549,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Iran_Nastaliq.webp",
+    "preview-image": "./data/preview-images/iranNastaliq.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/font-IranNastaliq-1.zip",
     "source-link": "https://github.com/font-store/font-IranNastaliq"
   },
@@ -2049,8 +2560,8 @@
       "fa": "تزئینی"
     },
     "Designer": {
-      "en": "Unknown",
-      "fa": "ناشناس"
+      "en": "Behnam",
+      "fa": "بهنام "
     },
     "supportedLanguages": [
       "ar",
@@ -2077,7 +2588,7 @@
       "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-vosta-400.woff2",
       "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-vosta-700.woff2"
     },
-    "preview-image": "./data/preview-images/XP_Vosta.webp",
+    "preview-image": "./data/preview-images/xp-vosta.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Vosta.zip",
     "source-link": "https://fontlibrary.org/en/font/xp-vosta"
   },
@@ -2110,7 +2621,7 @@
     "weights": {
       "count": 1
     },
-    "preview-image": "./data/preview-images/Fandogh.webp",
+    "preview-image": "./data/preview-images/fandogh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Fandogh.ttf",
     "source-link": "https://github.com/aminabedi68/Fandogh"
   }
