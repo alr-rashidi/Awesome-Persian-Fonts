@@ -67,6 +67,8 @@ DETAIL_FIELDS = [
     "license",
     "supportedLanguages",
     "weights",
+    "axes",
+    "styles",
     "note",
     "source-link",
     "download-link",
@@ -86,6 +88,8 @@ FIELD_LABELS = {
     "family": {"en": "Family", "fa": "خانواده"},
     "style": {"en": "Style", "fa": "سبک"},
     "weights": {"en": "Weights", "fa": "وزن‌ها"},
+    "axes": {"en": "Variable Axes", "fa": "محورهای متغیر"},
+    "styles": {"en": "Styles", "fa": "استایل‌ها"},
 }
 # Human-readable names for language codes used in `supportedLanguages`.
 # Values are keyed by README language and resolved like any other bilingual value.
@@ -302,15 +306,27 @@ def bilingual_name(font: dict, lang: str, resolver: Resolver) -> tuple[str, str]
 # ---------------------------------------------------------------------------
 # Summary table
 # ---------------------------------------------------------------------------
-def build_weights_text(value: dict, col: dict, lang: str, lang_def: dict, resolver: Resolver) -> str:
-    count = value.get("count", 1)
-    unit_key = "singular" if count == 1 else "plural"
-    unit = resolver.resolve(col.get(unit_key, {"en": "weight", "fa": "وزن"}), lang)
-    text = f"{count} {unit}"
-    if value.get("variable"):
-        suffix = resolver.resolve(col.get("variableSuffix", {"en": "(variable)", "fa": "(متغیر)"}), lang)
-        text += f" {suffix}"
-    return localize_digits(text, lang_def)
+def build_weights_text(font: dict, col: dict, lang: str, lang_def: dict, resolver: Resolver) -> str:
+    weights_val = font.get("weights")
+    is_variable = bool(font.get("isVariable"))
+    fake_col = col or {}
+
+    if is_variable:
+        if isinstance(weights_val, list) and len(weights_val) > 0:
+            count = len(weights_val)
+            unit_key = "singular" if count == 1 else "plural"
+            unit = resolver.resolve(fake_col.get(unit_key, {"en": "weight", "fa": "وزن"}), lang)
+            suffix = resolver.resolve(fake_col.get("variableSuffix", {"en": "(variable)", "fa": "(متغیر)"}), lang)
+            raw = f"{count} {unit} {suffix}"
+            return localize_digits(raw, lang_def)
+        return resolver.resolve({"en": "Variable", "fa": "متغیر"}, lang)
+    else:
+        count = len(weights_val) if isinstance(weights_val, list) else 1
+        unit_key = "singular" if count == 1 else "plural"
+        unit = resolver.resolve(fake_col.get(unit_key, {"en": "weight", "fa": "وزن"}), lang)
+        raw = f"{count} {unit}"
+        return localize_digits(raw, lang_def)
+
 def resolve_align(align_value, lang: str, lang_dir: str = "ltr") -> str:
     """Resolve column align.
     - plain string → same for all languages
@@ -339,13 +355,11 @@ def build_summary_cell(
         label = resolver.resolve(col.get("label", {"en": "Details", "fa": "جزئیات"}), lang)
         anchor = font_anchor(font)
         return f"[{label}](#{anchor})"
+    if col_type == "weights" or col_id == "weights":
+        return md_escape(build_weights_text(font, col, lang, lang_def, resolver))
     value = font.get(col_id)
     if value is None:
         return ""
-    if col_type == "weights" or col_id == "weights":
-        if not isinstance(value, dict):
-            return ""
-        return md_escape(build_weights_text(value, col, lang, lang_def, resolver))
     # preview-image
     if col_id.endswith("-image") or col_id == "preview-image":
         src = resolver.resolve(value, lang).strip()
@@ -401,10 +415,11 @@ def build_summary_table(
 # Per-font detail blocks
 # ---------------------------------------------------------------------------
 def format_field_value(
-    field: str, value, lang: str, lang_def: dict, resolver: Resolver
+    field: str, font: dict, lang: str, lang_def: dict, resolver: Resolver
 ) -> str:
     """Return a ready-to-print markdown fragment for one field."""
-    if value is None:
+    value = font.get(field)
+    if value is None and field not in ("weights", "axes", "styles"):
         return ""
     # Links (source / download) → special combined handling is done outside
     if field in ("source-link", "download-link"):
@@ -416,20 +431,13 @@ def format_field_value(
         label = resolver.resolve(FIELD_LABELS.get("Designer", "Designer"), lang)
         return f"**{label}:** {md_escape(text)}"
     if field == "supportedLanguages":
-        if isinstance(value, list):
-            names = [
-                language_display_name(str(item).strip(), lang, resolver)
-                for item in value
-            ]
-        else:
-            # plain/bilingual string → split on commas, then map each part
-            text = resolver.resolve(value, lang)
-            names = [
-                language_display_name(part.strip(), lang, resolver)
-                for part in re.split(r"[,،]", text)
-                if part.strip()
-            ]
-        names = [n for n in names if n]
+        if not isinstance(value, list) or not value:
+            return ""
+        names = [
+            language_display_name(str(item).strip(), lang, resolver)
+            for item in value
+            if str(item).strip()
+        ]
         if not names:
             return ""
         separator = resolver.resolve(LIST_SEPARATOR, lang)
@@ -438,19 +446,63 @@ def format_field_value(
         )
         return f"**{label}:** {md_escape(separator.join(names))}"
     if field == "weights":
-        if not isinstance(value, dict):
-            return ""
-        # reuse the weights formatter from summary
         fake_col = next((c for c in SUMMARY_COLUMNS if c["id"] == "weights"), {})
-        text = build_weights_text(value, fake_col, lang, lang_def, resolver)
+        text = build_weights_text(font, fake_col, lang, lang_def, resolver)
+        weights_val = font.get("weights")
+        if isinstance(weights_val, list) and len(weights_val) > 0:
+            formatted_list = ", ".join(str(w) for w in weights_val)
+            formatted_list = localize_digits(formatted_list, lang_def)
+            text += f" ({formatted_list})"
         label = resolver.resolve(FIELD_LABELS.get("weights", "Weights"), lang)
         return f"**{label}:** {md_escape(text)}"
-    if field == "woff2":
-        if not isinstance(value, dict) or not value:
+    if field == "axes":
+        axes_val = font.get("axes")
+        if not axes_val or not isinstance(axes_val, list):
             return ""
-        items = [f"`{k}`: `{v}`" for k, v in sorted(value.items())]
+        label = resolver.resolve(FIELD_LABELS.get("axes", "Axes"), lang)
+        items = []
+        for axis in axes_val:
+            if isinstance(axis, dict):
+                tag = axis.get("tag", "")
+                axis_name = resolver.resolve(axis.get("name"), lang) if axis.get("name") else ""
+                min_val = axis.get("min")
+                max_val = axis.get("max")
+                range_str = f"{min_val}–{max_val}" if (min_val is not None and max_val is not None) else ""
+                range_str = localize_digits(range_str, lang_def)
+                parts = [f"`{tag}`"]
+                if axis_name:
+                    parts.append(f"({axis_name})")
+                if range_str:
+                    parts.append(f": {range_str}")
+                items.append(" ".join(parts))
+            else:
+                items.append(f"`{str(axis)}`")
+        if not items:
+            return ""
+        separator = resolver.resolve(LIST_SEPARATOR, lang)
+        return f"**{label}:** {md_escape(separator.join(items))}"
+    if field == "styles":
+        styles_val = font.get("styles")
+        if not styles_val or not isinstance(styles_val, list):
+            return ""
+        label = resolver.resolve(FIELD_LABELS.get("styles", "Styles"), lang)
+        items = []
+        for st in styles_val:
+            if isinstance(st, dict):
+                st_name = resolver.resolve(st, lang)
+                if st_name:
+                    items.append(st_name)
+            elif str(st).strip():
+                items.append(str(st).strip())
+        if not items:
+            return ""
+        separator = resolver.resolve(LIST_SEPARATOR, lang)
+        return f"**{label}:** {md_escape(separator.join(items))}"
+    if field == "woff2":
+        if not isinstance(value, str) or not value.strip():
+            return ""
         label = "WOFF2"
-        return f"**{label}:**\n" + "\n".join(f"- {i}" for i in items)
+        return f"**{label}:** `{md_escape(value.strip())}`"
     # generic bilingual / string field
     text = resolver.resolve(value, lang).strip()
     if not text:
@@ -486,7 +538,7 @@ def build_font_details(
             if field in ("source-link", "download-link"):
                 continue  # handled as a single links line
             rendered = format_field_value(
-                field, font.get(field), lang, lang_def, resolver
+                field, font, lang, lang_def, resolver
             )
             if rendered:
                 lines.append(rendered)

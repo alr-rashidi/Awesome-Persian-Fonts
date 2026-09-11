@@ -208,7 +208,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": ["ar", "ckb", "fa", "la"],
+    "supportedLanguages": ["ar", "ckb", "fa"],
     "name": {
       "en": "Sahel",
       "fa": "ساحل"
@@ -463,7 +463,7 @@
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lemonada.woff2",
     "preview-image": "./data/preview-images/lemonada.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lemonada.zip",
-    "source-link": "https://gaber.design/lemonada-free-font-family",
+    "source-link": "https://github.com/Gue3bara/Lemonada",
     "isVariable": true
   },
   {
@@ -476,7 +476,7 @@
       "en": "Alper Karatepe",
       "fa": "آلپ کاراتپه"
     },
-    "supportedLanguages": ["la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Alan Sans",
       "fa": "الن سنس"
@@ -487,7 +487,7 @@
       "fa": "گروتسک مدرن با طیف گستردهٔ وزن و فرم‌های هندسی تمیز. فقط از الفبای لاتین پشتیبانی می‌کند."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/alan_sans.woff2",
-    "preview-image": "./data/preview-images/alan-sans.webp",
+    "preview-image": "./data/preview-images/alan sans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Alan_Sans.zip",
     "source-link": "https://typeface.alan.com/",
     "isVariable": true
@@ -502,7 +502,7 @@
       "en": "Boutros",
       "fa": "بوتروس"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Almarai",
       "fa": "المراعی"
@@ -529,7 +529,7 @@
       "en": "Eduardo Tunni",
       "fa": "ادواردو تونی"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Changa",
       "fa": "چنگا"
@@ -555,7 +555,7 @@
       "en": "Mohamed Gaber",
       "fa": "محمد جابر"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "El Messiri",
       "fa": "المسیری"
@@ -568,7 +568,7 @@
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/el-messiri.woff2",
     "preview-image": "./data/preview-images/el-messiri.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/El_Messiri.zip",
-    "source-link": "https://gaber.design/el-messiri-free-font-family",
+    "source-link": "https://github.com/Gue3bara/El-Messiri",
     "isVariable": true
   },
   {
@@ -581,7 +581,7 @@
       "en": "SIL International",
       "fa": "سازمان SIL"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Harmattan",
       "fa": "هارماتان"
@@ -597,6 +597,84 @@
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Harmattan.zip",
     "source-link": "https://software.sil.org/harmattan/",
     "isVariable": false
+  },
+  {
+    "family": "alexandria",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Mohamed Gaber",
+      "fa": "محمد جابر"
+    },
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
+    "name": {
+      "en": "Alexandria",
+      "fa": "اسکندریه"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A modern Arabic-Latin sans-serif with a geometric structure and balanced proportions. Its Latin design takes inspiration from Montserrat.",
+      "fa": "فونتی سنس مدرن عربی-لاتین با ساختاری هندسی و تناسباتی متعادل. بخش لاتین آن از مونتسرات الهام گرفته."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/alexandria.woff2",
+    "preview-image": "./data/preview-images/alexandria.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Alexandria.zip",
+    "source-link": "https://github.com/Gue3bara/Alexandria",
+    "isVariable": true
+  },
+  {
+    "family": "cairo",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Mohamed Gaber",
+      "fa": "محمد جابر"
+    },
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
+    "name": {
+      "en": "Cairo",
+      "fa": "قاهره"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A contemporary Arabic-Latin sans-serif typeface inspired by Kufi lettering, designed for excellent readability.",
+      "fa": "فونت سنس معاصر عربی-لاتین با الهام از خط کوفی و خوانایی بسیار خوب."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/cairo.woff2",
+    "preview-image": "./data/preview-images/cairo.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Cairo.zip",
+    "source-link": "https://github.com/Gue3bara/Cairo",
+    "isVariable": true
+  },
+  {
+    "family": "reem kufi",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Khaled Hosny, Santiago Orozco",
+      "fa": "خالد حسنی، سانتیاگو اوروزکو"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
+    "name": {
+      "en": "Reem Kufi",
+      "fa": "ریم کوفی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A modern Kufic typeface based on early Mushafi and Fatimid models, combining classical Arabic calligraphy with contemporary proportions. Designed primarily for headings and display use.",
+      "fa": "فونت کوفی مدرن بر اساس مدل‌های اولیه مصحفی و فاطمی، ترکیبی از خوشنویسی کلاسیک عربی با تناسبات معاصر. عمدتاً برای عناوین و کاربردهای نمایشی طراحی شده است."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/reem-kufi-400.woff2",
+    "preview-image": "./data/preview-images/reem kufi.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Reem_Kufi.zip",
+    "source-link": "https://github.com/alif-type/reem-kufi",
+    "isVariable": true
   },
   {
     "family": "vazir-code",
@@ -1013,7 +1091,7 @@
       "en": "SIL International",
       "fa": "سازمان SIL"
     },
-    "supportedLanguages": ["ar", "la", "sd"],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Lateef",
       "fa": "لطیف"
@@ -1028,6 +1106,113 @@
     "preview-image": "./data/preview-images/lateef.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
     "source-link": "https://software.sil.org/lateef/",
+    "isVariable": false
+  },
+  {
+    "family": "aref ruqaa",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "Abdullah Aref, Khaled Hosny",
+      "fa": "عبدالله عارف، خالد حسنی"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
+    "name": {
+      "en": "Aref Ruqaa",
+      "fa": "عارف رقعه"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic typeface that captures the essence of classical Ruqaa calligraphy. Available in regular and bold weights, with an optional color Ink variant.",
+      "fa": "فونت عربی که جوهر سبک خوشنویسی کلاسیک رقعه را به تصویر می‌کشد. در وزن‌های معمولی و ضخیم موجود است و نسخه رنگی جوهر نیز دارد."
+    },
+    "weights": [400, 700],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/aref-ruqaa-{weight}.woff2",
+    "preview-image": "./data/preview-images/aref ruqaa.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Aref_Ruqaa.zip",
+    "source-link": "https://github.com/alif-type/aref-ruqaa",
+    "isVariable": false
+  },
+  {
+    "family": "scheherazade new",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سیل اینترنشنال"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
+    "name": {
+      "en": "Scheherazade New",
+      "fa": "شهرزاد نیو"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A traditional Naskh-style Arabic typeface with extensive Unicode coverage. Supports Graphite and OpenType features for complex Arabic script rendering. Ideal for body text and scholarly work.",
+      "fa": "فونت عربی سنتی به سبک نسخ با پوشش گسترده یونیکد. از ویژگی‌های Graphite و OpenType برای رندر پیچیده خط عربی پشتیبانی می‌کند. مناسب برای متن اصلی و کارهای علمی."
+    },
+    "weights": [400, 500, 600, 700],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/scheherazade-new-{weight}.woff2",
+    "preview-image": "./data/preview-images/scheherazade new.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Scheherazade_New.zip",
+    "source-link": "https://software.sil.org/scheherazade",
+    "isVariable": false
+  },
+  {
+    "family": "markazi text",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "Borna Izadpanah, Fiona Ross, Florian Runge",
+      "fa": "برنا ایزدپناه، فیونا راس، فلوریان رانگه"
+    },
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
+    "name": {
+      "en": "Markazi Text",
+      "fa": "مرکزی تکست"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A contemporary text typeface with moderate contrast, inspired by Tim Holloway’s Markazi. Designed for high readability in both Arabic and Latin scripts across print and screen.",
+      "fa": "فونت متن معاصر با کنتراست متوسط، الهام‌گرفته از فونت مرکزی تیم هالووی. طراحی‌شده برای خوانایی بالا در خطوط عربی و لاتین برای چاپ و صفحه نمایش."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/markazi-text-400.woff2",
+    "preview-image": "./data/preview-images/markazi text.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Markazi_Text.zip",
+    "source-link": "https://github.com/BornaIz/markazitext",
+    "isVariable": true
+  },
+  {
+    "family": "lateef",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سیل اینترنشنال"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
+    "name": {
+      "en": "Lateef",
+      "fa": "لطیف"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An extended Naskh-style Arabic font named after the Sindhi mystic Shah Abdul Lateef Bhitai. Designed for linguistic documentation and extended text use, especially for Sindhi and related languages of southern Asia.",
+      "fa": "فونت عربی گسترش‌یافته به سبک نسخ به نام عارف سندی شاه عبداللطیف بهتایی. طراحی‌شده برای مستندسازی زبانی و استفاده در متن‌های طولانی، به‌ویژه برای زبان سندی و زبان‌های مرتبط جنوب آسیا."
+    },
+    "weights": [200, 300, 400, 500, 600, 700, 800],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lateef-{weight}.woff2",
+    "preview-image": "./data/preview-images/lateef.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
+    "source-link": "https://software.sil.org/lateef",
     "isVariable": false
   },
   {
@@ -1557,7 +1742,7 @@
       "en": "David Březina",
       "fa": "دیوید برزینا"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Handjet",
       "fa": "هندجت"
@@ -1648,7 +1833,7 @@
       "en": "Mahdi Ravandi & Mojtaba Zand",
       "fa": "مهدی روندی و مجتبی زند"
     },
-    "supportedLanguages": ["ar", "fa", "la", "ckb"],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Ghadim",
       "fa": "قدیم"
@@ -1729,7 +1914,7 @@
       "en": "Hani Alasadi",
       "fa": "هانی الاسدی"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Badeen Display",
       "fa": "بدین دیسپلی"
@@ -1756,7 +1941,7 @@
       "en": "Mohamed Gaber",
       "fa": "محمد جابر"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Blaka",
       "fa": "بلاکا"
@@ -1770,7 +1955,7 @@
     "weights": [400],
     "preview-image": "./data/preview-images/blaka.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Blaka.zip",
-    "source-link": "https://gaber.design/blaka-font-family-free-open-source",
+    "source-link": "https://github.com/Gue3bara/Blaka",
     "isVariable": false
   },
   {
@@ -1783,7 +1968,7 @@
       "en": "Nur Syamsi + Bustanul Arifin",
       "fa": "نور سیامسی + بستان‌الا‌ارفین"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Marhey",
       "fa": "مرحی"
@@ -1809,7 +1994,7 @@
       "en": "Kostas Bartsokas",
       "fa": "کوستاس بارتسوکاس"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Oi",
       "fa": "اوی"
@@ -1827,30 +2012,30 @@
     "isVariable": false
   },
   {
-    "family": "vibes",
+    "family": "rakkas",
     "style": {
-      "en": "Decorative",
-      "fa": "تزئینی"
+      "en": "Display",
+      "fa": "نمایشی"
     },
     "Designer": {
-      "en": "AbdElmomen Kadhim",
-      "fa": "عبدالمؤمن کاظم"
+      "en": "Zeynep Akay",
+      "fa": "زینب آکای"
     },
-    "supportedLanguages": ["ar", "la"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
-      "en": "Vibes",
-      "fa": "وایبز"
+      "en": "Rakkas",
+      "fa": "رکاس"
     },
     "license": "OFL",
     "description": {
-      "en": "An Arabic-Latin display typeface with a retro, funky personality.",
-      "fa": "فونت نمایشی عربی-لاتین با حس رترو و پرهیجان."
+      "en": "A single-weight display typeface inspired by Ruq'ah lettering on Egyptian movie posters from the 1950s–60s. Features rich contextual alternates that emulate traditional calligraphic fluidity.",
+      "fa": "فونت نمایشی تک‌وزن الهام‌گرفته از حروف رقعه روی پوسترهای فیلم مصری دهه ۱۹۵۰ و ۶۰. دارای جایگزین‌های متنی غنی که سیالیت خوشنویسی سنتی را تقلید می‌کند."
     },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vibes-{weight}.woff2",
     "weights": [400],
-    "preview-image": "./data/preview-images/vibes.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Vibes.zip",
-    "source-link": "https://fonts.google.com/specimen/Vibes",
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rakkas-{weight}.woff2",
+    "preview-image": "./data/preview-images/rakkas.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Rakkas.zip",
+    "source-link": "https://github.com/zeynepakay/Rakkas",
     "isVariable": false
   },
   {
@@ -1883,14 +2068,14 @@
   {
     "family": "gulzar",
     "style": {
-      "en": "Display",
-      "fa": "نمایشی"
+      "en": "Nastaliq",
+      "fa": "نستعلیق"
     },
     "Designer": {
       "en": "Borna Izadpanah",
       "fa": "برنا ایزدپناه"
     },
-    "supportedLanguages": ["ar", "la", "ur"],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Gulzar",
       "fa": "گلزار"
@@ -1910,14 +2095,14 @@
   {
     "family": "noto-nastaliq-urdu",
     "style": {
-      "en": "Display",
-      "fa": "نمایشی"
+      "en": "Nastaliq",
+      "fa": "نستعلیق"
     },
     "Designer": {
       "en": "Noto Project (Google)",
       "fa": "پروژهٔ نوتو (گوگل)"
     },
-    "supportedLanguages": ["ar", "la", "ur"],
+    "supportedLanguages": ["ar", "fa", "la", "ps", "sd", "ur"],
     "name": {
       "en": "Noto Nastaliq Urdu",
       "fa": "نوتو نستعلیق اردو"
@@ -1932,6 +2117,37 @@
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Noto_Nastaliq_Urdu.zip",
     "source-link": "https://fonts.google.com/noto/specimen/Noto+Nastaliq+Urdu",
     "isVariable": true
+  },
+  {
+    "family": "awami nastaliq",
+    "style": {
+      "en": "Nastaliq",
+      "fa": "نستعلیق"
+    },
+    "Designer": {
+      "en": "Jonathan Kew",
+      "fa": "جاناتان کیو"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
+    "name": {
+      "en": "Awami Nastaliq",
+      "fa": "عوامی نستعلیق"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "Awami Nastaliq is a comprehensive Nastaliq-style Arabic-script font developed by SIL International and designed primarily by Jonathan Kew. It covers languages such as Urdu, Persian, Panjabi (Shahmukhi), Kurdish (Sorani), Saraiki, Sindhi, Balochi and Arabic, and uses extensive smart-font rules (Graphite, and OpenType in recent versions) to handle the complex ligatures, cascading diagonals, and vertical stacking of traditional Nastaliq calligraphy.",
+      "fa": "عوامی نستعلیق فونتی جامع به سبک خط نستعلیق است که توسط سازمان بین‌المللی سیل (SIL International) و عمدتاً به طراحی جاناتان کیو توسعه یافته است. این فونت زبان‌هایی مانند اردو، فارسی، پنجابی (شاه‌مکهی)، کردی سورانی، سرائیکی، سندی، بلوچی و عربی را پوشش می‌دهد و با به‌کارگیری قواعد هوشمند Graphite (و OpenType در نسخه‌های جدید)، لیگاچورهای پیچیده، کشیدگی‌های مورب و چیدمان عمودی حروف در خوشنویسی نستعلیق را به‌درستی بازنمایی می‌کند."
+    },
+    "note": {
+      "en": "The numerals in this font are in Urdu.",
+      "fa": "اعداد این فونت به زبان اردو می‌باشد"
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/awami-nastaliq-{weight}.woff2",
+    "weights": [400, 500, 600, 700, 800],
+    "preview-image": "./data/preview-images/awami nastaliq.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Awami_Nastaliq.zip",
+    "source-link": "https://github.com/silnrsi/font-awami",
+    "isVariable": false
   },
   {
     "family": "xp-vosta",
@@ -1988,194 +2204,30 @@
     "isVariable": false
   },
   {
-    "family": "reem kufi",
+    "family": "vibes",
     "style": {
-      "en": "Sans",
-      "fa": "سنس"
+      "en": "Decorative",
+      "fa": "تزئینی"
     },
     "Designer": {
-      "en": "Khaled Hosny, Santiago Orozco",
-      "fa": "خالد حسنی، سانتیاگو اوروزکو"
+      "en": "AbdElmomen Kadhim",
+      "fa": "عبدالمؤمن کاظم"
     },
-    "supportedLanguages": ["ar", "en", "vi"],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
-      "en": "Reem Kufi",
-      "fa": "ریم کوفی"
+      "en": "Vibes",
+      "fa": "وایبز"
     },
     "license": "OFL",
     "description": {
-      "en": "A modern Kufic typeface based on early Mushafi and Fatimid models, combining classical Arabic calligraphy with contemporary proportions. Designed primarily for headings and display use.",
-      "fa": "فونت کوفی مدرن بر اساس مدل‌های اولیه مصحفی و فاطمی، ترکیبی از خوشنویسی کلاسیک عربی با تناسبات معاصر. عمدتاً برای عناوین و کاربردهای نمایشی طراحی شده است."
+      "en": "An Arabic-Latin display typeface with a retro, funky personality.",
+      "fa": "فونت نمایشی عربی-لاتین با حس رترو و پرهیجان."
     },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/reem-kufi-400.woff2",
-    "preview-image": "./data/preview-images/reem kufi.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Reem_Kufi.zip",
-    "source-link": "https://github.com/alif-type/reem-kufi",
-    "isVariable": true
-  },
-  {
-    "family": "aref ruqaa",
-    "style": {
-      "en": "Serif",
-      "fa": "سریف"
-    },
-    "Designer": {
-      "en": "Abdullah Aref, Khaled Hosny",
-      "fa": "عبدالله عارف، خالد حسنی"
-    },
-    "supportedLanguages": ["ar", "en"],
-    "name": {
-      "en": "Aref Ruqaa",
-      "fa": "عارف رقعه"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "An Arabic typeface that captures the essence of classical Ruqaa calligraphy. Available in regular and bold weights, with an optional color Ink variant.",
-      "fa": "فونت عربی که جوهر سبک خوشنویسی کلاسیک رقعه را به تصویر می‌کشد. در وزن‌های معمولی و ضخیم موجود است و نسخه رنگی جوهر نیز دارد."
-    },
-    "weights": [400, 700],
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/aref-ruqaa-{weight}.woff2",
-    "preview-image": "./data/preview-images/aref ruqaa.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Aref_Ruqaa.zip",
-    "source-link": "https://github.com/alif-type/aref-ruqaa",
-    "isVariable": false
-  },
-  {
-    "family": "scheherazade new",
-    "style": {
-      "en": "Serif",
-      "fa": "سریف"
-    },
-    "Designer": {
-      "en": "SIL International",
-      "fa": "سیل اینترنشنال"
-    },
-    "supportedLanguages": ["ar", "fa", "ur", "ku", "sd"],
-    "name": {
-      "en": "Scheherazade New",
-      "fa": "شهرزاد نیو"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "A traditional Naskh-style Arabic typeface with extensive Unicode coverage. Supports Graphite and OpenType features for complex Arabic script rendering. Ideal for body text and scholarly work.",
-      "fa": "فونت عربی سنتی به سبک نسخ با پوشش گسترده یونیکد. از ویژگی‌های Graphite و OpenType برای رندر پیچیده خط عربی پشتیبانی می‌کند. مناسب برای متن اصلی و کارهای علمی."
-    },
-    "weights": [400, 500, 600, 700],
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/scheherazade-new-{weight}.woff2",
-    "preview-image": "./data/preview-images/scheherazade new.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Scheherazade_New.zip",
-    "source-link": "https://software.sil.org/scheherazade",
-    "isVariable": false
-  },
-  {
-    "family": "rakkas",
-    "style": {
-      "en": "Display",
-      "fa": "نمایشی"
-    },
-    "Designer": {
-      "en": "Zeynep Akay",
-      "fa": "زینب آکای"
-    },
-    "supportedLanguages": ["ar", "fa", "la", "ur"],
-    "name": {
-      "en": "Rakkas",
-      "fa": "رکاس"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "A single-weight display typeface inspired by Ruq'ah lettering on Egyptian movie posters from the 1950s–60s. Features rich contextual alternates that emulate traditional calligraphic fluidity.",
-      "fa": "فونت نمایشی تک‌وزن الهام‌گرفته از حروف رقعه روی پوسترهای فیلم مصری دهه ۱۹۵۰ و ۶۰. دارای جایگزین‌های متنی غنی که سیالیت خوشنویسی سنتی را تقلید می‌کند."
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vibes-{weight}.woff2",
     "weights": [400],
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rakkas-{weight}.woff2",
-    "preview-image": "./data/preview-images/rakkas.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Rakkas.zip",
-    "source-link": "https://github.com/zeynepakay/Rakkas",
-    "isVariable": false
-  },
-  {
-    "family": "markazi text",
-    "style": {
-      "en": "Serif",
-      "fa": "سریف"
-    },
-    "Designer": {
-      "en": "Borna Izadpanah, Fiona Ross, Florian Runge",
-      "fa": "برنا ایزدپناه، فیونا راس، فلوریان رانگه"
-    },
-    "supportedLanguages": ["ar", "fa", "la", "ur"],
-    "name": {
-      "en": "Markazi Text",
-      "fa": "مرکزی تکست"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "A contemporary text typeface with moderate contrast, inspired by Tim Holloway’s Markazi. Designed for high readability in both Arabic and Latin scripts across print and screen.",
-      "fa": "فونت متن معاصر با کنتراست متوسط، الهام‌گرفته از فونت مرکزی تیم هالووی. طراحی‌شده برای خوانایی بالا در خطوط عربی و لاتین برای چاپ و صفحه نمایش."
-    },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/markazi-text-400.woff2",
-    "preview-image": "./data/preview-images/markazi text.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Markazi_Text.zip",
-    "source-link": "https://github.com/BornaIz/markazitext",
-    "isVariable": true
-  },
-  {
-    "family": "lateef",
-    "style": {
-      "en": "Serif",
-      "fa": "سریف"
-    },
-    "Designer": {
-      "en": "SIL International",
-      "fa": "سیل اینترنشنال"
-    },
-    "supportedLanguages": ["ar", "sd", "ur", "fa", "ps"],
-    "name": {
-      "en": "Lateef",
-      "fa": "لطیف"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "An extended Naskh-style Arabic font named after the Sindhi mystic Shah Abdul Lateef Bhitai. Designed for linguistic documentation and extended text use, especially for Sindhi and related languages of southern Asia.",
-      "fa": "فونت عربی گسترش‌یافته به سبک نسخ به نام عارف سندی شاه عبداللطیف بهتایی. طراحی‌شده برای مستندسازی زبانی و استفاده در متن‌های طولانی، به‌ویژه برای زبان سندی و زبان‌های مرتبط جنوب آسیا."
-    },
-    "weights": [200, 300, 400, 500, 600, 700, 800],
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lateef-{weight}.woff2",
-    "preview-image": "./data/preview-images/lateef.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
-    "source-link": "https://software.sil.org/lateef",
-    "isVariable": false
-  },
-  {
-    "family": "awami nastaliq",
-    "style": {
-      "en": "Display",
-      "fa": "نمایشی"
-    },
-    "Designer": {
-      "en": "Jonathan Kew",
-      "fa": "جاناتان کیو"
-    },
-    "supportedLanguages": ["ur", "fa", "ar", "la", "ckb", "ps", "ug"],
-    "name": {
-      "en": "Awami Nastaliq",
-      "fa": "عوامی نستعلیق"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "Awami Nastaliq is a comprehensive Nastaliq-style Arabic-script font developed by SIL International and designed primarily by Jonathan Kew. It covers languages such as Urdu, Persian, Panjabi (Shahmukhi), Kurdish (Sorani), Saraiki, Sindhi, Balochi and Arabic, and uses extensive smart-font rules (Graphite, and OpenType in recent versions) to handle the complex ligatures, cascading diagonals, and vertical stacking of traditional Nastaliq calligraphy.",
-      "fa": "عوامی نستعلیق فونتی جامع به سبک خط نستعلیق است که توسط سازمان بین‌المللی سیل (SIL International) و عمدتاً به طراحی جاناتان کیو توسعه یافته است. این فونت زبان‌هایی مانند اردو، فارسی، پنجابی (شاه‌مکهی)، کردی سورانی، سرائیکی، سندی، بلوچی و عربی را پوشش می‌دهد و با به‌کارگیری قواعد هوشمند Graphite (و OpenType در نسخه‌های جدید)، لیگاچورهای پیچیده، کشیدگی‌های مورب و چیدمان عمودی حروف در خوشنویسی نستعلیق را به‌درستی بازنمایی می‌کند."
-    },
-    "note": {
-      "en": "The numerals in this font are in Urdu.",
-      "fa": "اعداد این فونت به زبان اردو می‌باشد"
-    },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/awami-nastaliq-{weight}.woff2",
-    "weights": [400, 500, 600, 700, 800],
-    "preview-image": "./data/preview-images/awami nastaliq.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Awami_Nastaliq.zip",
-    "source-link": "https://github.com/silnrsi/font-awami",
+    "preview-image": "./data/preview-images/vibes.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Vibes.zip",
+    "source-link": "https://fonts.google.com/specimen/Vibes",
     "isVariable": false
   }
 ]
