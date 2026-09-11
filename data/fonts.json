@@ -460,6 +460,10 @@
       "en": "A friendly rounded Arabic-Latin sans-serif, offered as a variable font from Light to Bold.",
       "fa": "سنس‌سریف گرد و دوستانهٔ عربی-لاتین که به‌صورت متغیر از Light تا Bold عرضه می‌شود."
     },
+    "note": {
+      "en": "The number in this font is Arabic.",
+      "fa": "عدد ۴ در این فونت به زبان عربی می‌باشد"
+    },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lemonada.woff2",
     "preview-image": "./data/preview-images/lemonada.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lemonada.zip",
@@ -1981,7 +1985,7 @@
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/marhey.woff2",
     "preview-image": "./data/preview-images/marhey.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Marhey.zip",
-    "source-link": "https://fonts.google.com/specimen/Marhey",
+    "source-link": "https://github.com/namelatype/Marhey",
     "isVariable": true
   },
   {
