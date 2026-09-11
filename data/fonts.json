@@ -9,15 +9,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "Vazirmatn",
       "fa": "وزیرمتن"
@@ -32,16 +24,13 @@
       "fa": "نسخهٔ توسعه‌یافته و جانشین فونت وزیر"
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vazirmatn.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/vazirmatn.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vazirmatn-v33.003.zip",
-    "source-link": "https://github.com/rastikerdar/vazirmatn"
+    "source-link": "https://github.com/rastikerdar/vazirmatn",
+    "isVariable": true
   },
   {
-    "family": "arad",
+    "family": "aradvf",
     "style": {
       "en": "Sans",
       "fa": "سنس"
@@ -50,13 +39,7 @@
       "en": "Mohammad Darvishi",
       "fa": "محمد درویشی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Arad",
       "fa": "آراد"
@@ -66,15 +49,22 @@
       "en": "A geometric Persian-Arabic sans-serif, the modern successor of Shabnam. Available in 10 weights and multiple dot styles, suitable for both body text and display.",
       "fa": "سنس‌سریف هندسی فارسی-عربی و جانشین مدرن شبنم. در ۱۰ وزن و چندین استایل نقطه طراحی شده و هم برای متن و هم تیتر مناسب است."
     },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/arad.woff2",
-    "weights": {
-      "count": 10,
-      "variable": true
-    },
-    "variants": ["Dots2","Dots3"],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/aradvf.woff2",
+    "axes": [
+      {
+        "tag": "DSTY",
+        "name": {
+          "en": "Dots Style",
+          "fa": "سبک نقطه‌ها"
+        },
+        "min": 1,
+        "max": 3
+      }
+    ],
     "preview-image": "./data/preview-images/arad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Arad_2.5.0.zip",
-    "source-link": "https://github.com/MohamadDarvishi/Arad"
+    "source-link": "https://github.com/MohamadDarvishi/Arad",
+    "isVariable": true
   },
   {
     "family": "aq-normal-sans",
@@ -86,12 +76,7 @@
       "en": "AzadQalam",
       "fa": "آزادقلم"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Normal Sans",
       "fa": "نرمال سنس"
@@ -102,13 +87,10 @@
       "fa": "سنس‌سریف نیمه‌رسمی بر پایهٔ وزیر و استعداد. طراحی تمیز و متعادل که هم برای اسناد حرفه‌ای و هم رابط‌های مدرن مناسب است."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/aq-normal-sans.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/aq-normal-sans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/AQNormalSans-v1.0.0.zip",
-    "source-link": "https://github.com/AzadQalam/normal-sans"
+    "source-link": "https://github.com/AzadQalam/normal-sans",
+    "isVariable": true
   },
   {
     "family": "samim",
@@ -120,12 +102,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Samim",
       "fa": "صمیم"
@@ -135,14 +112,8 @@
       "en": "A friendly and soft Persian sans-serif based on Vazir, with rounded terminals and a calm appearance. Suitable for body text and UI with good screen legibility.",
       "fa": "سنس‌سریف دوستانه و نرم بر پایهٔ وزیر، با گوشه‌های گرد و ظاهری آرام. مناسب متن‌های بلند و رابط کاربری با خوانایی خوب روی صفحه."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/samim-400.woff2",
-      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/samim-500.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/samim-700.woff2"
-    },
-    "weights": {
-      "count": 3
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/samim-{weight}.woff2",
+    "weights": [400, 500, 700],
     "preview-image": "./data/preview-images/samim.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/samim-font-v4.0.5.zip",
     "source-link": "https://github.com/rastikerdar/samim-font"
@@ -157,12 +128,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Shabnam",
       "fa": "شبنم"
@@ -172,16 +138,12 @@
       "en": "A soft geometric Persian sans-serif inspired by Yekan and built on Vazir. Features clean, modern letterforms with a gentle and contemporary feel.",
       "fa": "سنس‌سریف هندسی و نرم با الهام از یکان و بر پایهٔ وزیر. حروف تمیز و مدرن با حس ملایم و معاصر."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/shabnam-400.woff2",
-      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/shabnam-500.woff2"
-    },
-    "weights": {
-      "count": 5
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/shabnam-{weight}.woff2",
+    "weights": [400, 500],
     "preview-image": "./data/preview-images/shabnam.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/shabnam-font-v5.0.1.zip",
-    "source-link": "https://github.com/rastikerdar/shabnam-font"
+    "source-link": "https://github.com/rastikerdar/shabnam-font",
+    "isVariable": false
   },
   {
     "family": "estedad",
@@ -193,16 +155,7 @@
       "en": "Amin Abedi",
       "fa": "امین عابدی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Estedad",
       "fa": "استعداد"
@@ -213,13 +166,10 @@
       "fa": "سنس‌سریف ساده، نرم و فشردهٔ عربی-لاتین با کنتراست کم. بهینه‌شده برای صفحه و وب"
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/estedad.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/estedad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Estedad-v8.5.zip",
-    "source-link": "https://github.com/aminabedi68/Estedad"
+    "source-link": "https://github.com/aminabedi68/Estedad",
+    "isVariable": true
   },
   {
     "family": "sepehr",
@@ -231,11 +181,7 @@
       "en": "Saeed Rezaee",
       "fa": "سعید رضایی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Sepehr",
       "fa": "سپهر"
@@ -245,19 +191,12 @@
       "en": "A Persian-Arabic sans-serif based on Vazir and DejaVu. Redesigned Persian glyphs for improved readability while keeping the familiar structure.",
       "fa": "سنس‌سریف فارسی-عربی بر پایهٔ وزیر و DejaVu. حروف فارسی بازطراحی شده‌اند تا خوانایی بهتری داشته باشند و ساختار آشنا حفظ شود."
     },
-    "woff2": {
-      "100": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-100.woff2",
-      "300": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-300.woff2",
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-400.woff2",
-      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-500.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-700.woff2"
-    },
-    "weights": {
-      "count": 5
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sepehr-{weight}.woff2",
+    "weights": [100, 300, 400, 500, 700],
     "preview-image": "./data/preview-images/sepehr.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/sepehr-fonts-main.zip",
-    "source-link": "https://github.com/googlefonts/sepehr-fonts"
+    "source-link": "https://github.com/googlefonts/sepehr-fonts",
+    "isVariable": false
   },
   {
     "family": "sahel",
@@ -269,12 +208,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Sahel",
       "fa": "ساحل"
@@ -285,13 +219,10 @@
       "fa": "سنس‌سریف تمیز و همه‌کاره از صابر راستی‌کردار. مناسب هم برای متن و هم طراحی رابط کاربری."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sahel.woff2",
-    "weights": {
-      "count": 5,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/sahel.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/sahel-font-v3.4.0.zip",
-    "source-link": "https://github.com/rastikerdar/sahel-font"
+    "source-link": "https://github.com/rastikerdar/sahel-font",
+    "isVariable": true
   },
   {
     "family": "nahid",
@@ -303,11 +234,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Nahid",
       "fa": "ناهید"
@@ -317,15 +244,12 @@
       "en": "A highly readable Persian sans-serif based on Vazir. Designed for clarity in digital reading environments.",
       "fa": "سنس‌سریف بسیار خوانا بر پایهٔ وزیر. برای وضوح در محیط‌های مطالعهٔ دیجیتال طراحی شده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nahid-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nahid-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/nahid.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nahid-font-v0.3.0.zip",
-    "source-link": "https://github.com/rastikerdar/nahid-font"
+    "source-link": "https://github.com/rastikerdar/nahid-font",
+    "isVariable": false
   },
   {
     "family": "xm-yekan",
@@ -337,11 +261,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "XM Yekan",
       "fa": "XM یکان"
@@ -351,15 +271,12 @@
       "en": "A classic Persian sans-serif in the Yekan style. Simple geometric forms that have been popular for many years in Persian typography.",
       "fa": "سنس‌سریف کلاسیک فارسی در سبک یکان. فرم‌های هندسی ساده که سال‌ها در تایپوگرافی فارسی محبوب بوده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/yekan-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/yekan-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/xm-yekan.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xm-yekan.zip",
-    "source-link": "https://fontlibrary.org/en/font/xm-yekan"
+    "source-link": "https://fontlibrary.org/en/font/xm-yekan",
+    "isVariable": false
   },
   {
     "family": "elham",
@@ -371,10 +288,7 @@
       "en": "Sharif FarsiWeb Inc.",
       "fa": "شرکت فارسی‌وب شریف"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Elham",
       "fa": "الهام"
@@ -384,15 +298,12 @@
       "en": "Geometric Persian font suitable for headings, with a clean, modern, and readable appearance.",
       "fa": "فونت فارسی هندسی و مناسب عنوان است که ظاهری خوانا و مدرن دارد."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/elham-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/elham-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/elham.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/elham.ttf",
-    "source-link": "github.com/behnam/fonts-farsiweb"
+    "source-link": "github.com/behnam/fonts-farsiweb",
+    "isVariable": false
   },
   {
     "family": "ganjnamehSans",
@@ -404,10 +315,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Ganjnameh",
       "fa": "گنجنامه"
@@ -417,15 +325,12 @@
       "en": "A modern monoline Persian sans-serif with clean and consistent stroke weight. Suitable for contemporary titles and short texts.",
       "fa": "سنس‌سریف مونولاین مدرن فارسی با ضخامت یکنواخت و تمیز. مناسب عناوین معاصر و متن‌های کوتاه."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/ganjnamehsans-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/ganjnamehsans-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/ganjnamehSans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/ganjnameh.0.0.4.zip",
-    "source-link": "https://github.com/font-store/GanjnamehFont"
+    "source-link": "https://github.com/font-store/GanjnamehFont",
+    "isVariable": false
   },
   {
     "family": "behdad",
@@ -437,10 +342,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Behdad",
       "fa": "بهداد"
@@ -450,15 +352,12 @@
       "en": "A friendly monoline Persian sans-serif with soft and approachable character. Designed for warm and informal communication.",
       "fa": "سنس‌سریف مونولاین دوستانهٔ فارسی با شخصیت نرم و صمیمی. برای ارتباطات گرم و غیررسمی طراحی شده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/behdad-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/behdad-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/behdad.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Behdad-1.0.0.zip",
-    "source-link": "https://github.com/font-store/BehdadFont"
+    "source-link": "https://github.com/font-store/BehdadFont",
+    "isVariable": false
   },
   {
     "family": "koodak",
@@ -470,10 +369,7 @@
       "en": "Sharif FarsiWeb Inc.",
       "fa": "شرکت فارسی‌وب شریف"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Koodak",
       "fa": "کودک"
@@ -482,16 +378,13 @@
       "en": "A rounded and friendly Persian font designed with a soft, childlike personality. Ideal for educational materials and light-hearted designs.",
       "fa": "قلم گرد و دوستانهٔ فارسی با شخصیت نرم و کودکانه. مناسب مطالب آموزشی و طراحی‌های سبک و شاد."
     },
-    "weights": {
-      "count": 1
-    },
+    "weights": [400],
     "license": "BVL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/koodak-400.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/koodak-{weight}.woff2",
     "preview-image": "./data/preview-images/koodak.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/koodak.zip",
-    "source-link": "https://fontlibrary.org/en/font/koodak"
+    "source-link": "https://fontlibrary.org/en/font/koodak",
+    "isVariable": false
   },
   {
     "family": "shahab",
@@ -503,10 +396,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Shahab",
       "fa": "شهاب"
@@ -516,15 +406,12 @@
       "en": "A modern monoline Persian sans-serif with a clean and contemporary look. Suitable for titles and modern branding.",
       "fa": "سنس‌سریف مونولاین مدرن فارسی با ظاهر تمیز و معاصر. مناسب عناوین و برندینگ مدرن."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/shahab-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/shahab-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/shahab.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/shahab.0.0.2.zip",
-    "source-link": "https://github.com/font-store/ShahabFont"
+    "source-link": "https://github.com/font-store/ShahabFont",
+    "isVariable": false
   },
   {
     "family": "iranian-sans",
@@ -536,10 +423,7 @@
       "en": "Hooman Mehr, Hadi Navid",
       "fa": "هومن مهر، هادی نوید،"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Iranian Sans",
       "fa": "ایرانیان سنس"
@@ -549,16 +433,12 @@
       "en": "A free and practical Persian sans-serif with good readability. Includes a screen-optimized variant (IranSansZ) for low-resolution displays.",
       "fa": "سنس‌سریف آزاد و کاربردی فارسی با خوانایی خوب. نسخهٔ بهینه‌شده برای صفحه (ایران‌سنس‌زد) نیز برای وضوح پایین موجود است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-sans-400.woff2",
-      "800": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-sans-800.woff2"
-    },
-    "weights": {
-      "count": 2
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-sans-{weight}.woff2",
+    "weights": [400, 800],
     "preview-image": "./data/preview-images/iranian-sans.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/iranian-sans.zip",
-    "source-link": "https://fontlibrary.org/en/font/iranian-sans"
+    "source-link": "https://fontlibrary.org/en/font/iranian-sans",
+    "isVariable": false
   },
   {
     "family": "lemonada",
@@ -570,12 +450,7 @@
       "en": "Mohamed Gaber",
       "fa": "محمد جابر"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Lemonada",
       "fa": "لمونادا"
@@ -586,16 +461,13 @@
       "fa": "سنس‌سریف گرد و دوستانهٔ عربی-لاتین که به‌صورت متغیر از Light تا Bold عرضه می‌شود."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lemonada.woff2",
-    "weights": {
-      "count": 5,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/lemonada.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/lemonada",
-    "source-link": "https://fonts.google.com/specimen/Lemonada"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lemonada.zip",
+    "source-link": "https://gaber.design/lemonada-free-font-family",
+    "isVariable": true
   },
   {
-    "family": "alan-sans",
+    "family": "alan sans",
     "style": {
       "en": "Sans",
       "fa": "سنس"
@@ -604,9 +476,7 @@
       "en": "Alper Karatepe",
       "fa": "آلپ کاراتپه"
     },
-    "supportedLanguages": [
-      "la"
-    ],
+    "supportedLanguages": ["la"],
     "name": {
       "en": "Alan Sans",
       "fa": "الن سنس"
@@ -616,18 +486,11 @@
       "en": "A contemporary grotesque sans-serif with a wide weight range and clean geometric forms.",
       "fa": "گروتسک مدرن با طیف گستردهٔ وزن و فرم‌های هندسی تمیز. فقط از الفبای لاتین پشتیبانی می‌کند."
     },
-    "note": {
-      "en": "Latin-only — does NOT support Persian/Arabic scripts.",
-      "fa": "فقط لاتین است و برای فارسی مناسب نیست؛ احتمالاً نباید در دیتاست فارسی باشد."
-    },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/alan_sans.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/alan-sans.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/alansans",
-    "source-link": "https://fonts.google.com/specimen/Alan+Sans"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Alan_Sans.zip",
+    "source-link": "https://typeface.alan.com/",
+    "isVariable": true
   },
   {
     "family": "almarai",
@@ -639,10 +502,7 @@
       "en": "Boutros",
       "fa": "بوتروس"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Almarai",
       "fa": "المراعی"
@@ -652,18 +512,12 @@
       "en": "A simple and functional Arabic sans-serif with four weights, suitable for text and interfaces.",
       "fa": "سنس‌سریف ساده و کاربردی عربی با چهار وزن؛ مناسب متن و رابط کاربری."
     },
-    "woff2": {
-      "300": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-300.woff2",
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-700.woff2",
-      "800": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-800.woff2"
-    },
-    "weights": {
-      "count": 4
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/almarai-{weight}.woff2",
+    "weights": [300, 400, 700, 800],
     "preview-image": "./data/preview-images/almarai.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/almarai",
-    "source-link": "https://fonts.google.com/specimen/Almarai"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Almarai.zip",
+    "source-link": "https://github.com/google/fonts/tree/main/ofl/almarai",
+    "isVariable": false
   },
   {
     "family": "changa",
@@ -675,10 +529,7 @@
       "en": "Eduardo Tunni",
       "fa": "ادواردو تونی"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Changa",
       "fa": "چنگا"
@@ -689,13 +540,10 @@
       "fa": "سنس‌سریف نیمه‌فشردهٔ عربی-لاتین با طیف گستردهٔ وزن؛ هم برای تیتر و هم متن."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/changa.woff2",
-    "weights": {
-      "count": 7,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/changa.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/changa",
-    "source-link": "https://fonts.google.com/specimen/Changa"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Changa.zip",
+    "source-link": "http://www.tipo.net.ar",
+    "isVariable": true
   },
   {
     "family": "el-messiri",
@@ -707,10 +555,7 @@
       "en": "Mohamed Gaber",
       "fa": "محمد جابر"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "El Messiri",
       "fa": "المسیری"
@@ -721,13 +566,10 @@
       "fa": "سنس‌سریف عربی-لاتین با لحنی خوشنویسانه؛ حروف لاتین و سیریلیک با همکاری طراحان دیگر توسعه یافته‌اند."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/el-messiri.woff2",
-    "weights": {
-      "count": 4,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/el-messiri.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/elmessiri",
-    "source-link": "https://fonts.google.com/specimen/El+Messiri"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/El_Messiri.zip",
+    "source-link": "https://gaber.design/el-messiri-free-font-family",
+    "isVariable": true
   },
   {
     "family": "harmattan",
@@ -739,10 +581,7 @@
       "en": "SIL International",
       "fa": "سازمان SIL"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Harmattan",
       "fa": "هارماتان"
@@ -752,18 +591,12 @@
       "en": "An Arabic-Latin typeface by SIL for West African languages; legible at small sizes.",
       "fa": "فونت عربی-لاتین از سازمان SIL برای زبان‌های آفریقای غربی؛ خوانا در اندازه‌های کوچک."
     },
-    "woff2": {
-      "300": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-400.woff2",
-      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-500.woff2",
-      "600": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-600.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-700.woff2"
-    },
-    "weights": {
-      "count": 4
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/harmattan-{weight}.woff2",
+    "weights": [300, 500, 600, 700],
     "preview-image": "./data/preview-images/harmattan.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/harmattan",
-    "source-link": "https://fonts.google.com/specimen/Harmattan"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Harmattan.zip",
+    "source-link": "https://software.sil.org/harmattan/",
+    "isVariable": false
   },
   {
     "family": "vazir-code",
@@ -775,11 +608,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Vazir Code",
       "fa": "وزیرکد"
@@ -789,15 +618,12 @@
       "en": "A monospaced Persian font based on Vazir, designed for coding and technical texts. Provides consistent character width for better readability in code.",
       "fa": "فونت تک‌فاصلهٔ فارسی بر پایهٔ وزیر، مخصوص کدنویسی و متون فنی. عرض یکسان حروف برای خوانایی بهتر در کد."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vazir-code-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vazir-code-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/vazir-code.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vazir-code-font-v1.1.2.zip",
-    "source-link": "https://github.com/rastikerdar/vazir-code-font"
+    "source-link": "https://github.com/rastikerdar/vazir-code-font",
+    "isVariable": false
   },
   {
     "family": "vira",
@@ -809,11 +635,7 @@
       "en": "Sina Omrani",
       "fa": "سینا عمرانی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Vira",
       "fa": "ویرا"
@@ -823,15 +645,12 @@
       "en": "A hybrid monospaced font combining Fira Code and Vazir Code with ligature support. Ideal for programming with both Latin and Persian scripts.",
       "fa": "فونت تک‌فاصلهٔ ترکیبی از Fira Code و وزیرکد با پشتیبانی از لیگچر. ایده‌آل برای برنامه‌نویسی با هر دو خط لاتین و فارسی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vira-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vira-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/vira.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/vira.zip",
-    "source-link": "https://github.com/huzwares/Vira"
+    "source-link": "https://github.com/huzwares/Vira",
+    "isVariable": false
   },
   {
     "family": "zira-code",
@@ -843,16 +662,7 @@
       "en": "Kiamazi",
       "fa": "کیامازی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Zira Code",
       "fa": "زیراکد"
@@ -862,15 +672,12 @@
       "en": "A hybrid monospaced font combining Fira Code and Vazir Code with ligature support. Ideal for programming with both Latin and Persian scripts.",
       "fa": "فونت تک‌فاصلهٔ ترکیبی از Fira Code و وزیرکد با پشتیبانی از لیگچر. ایده‌آل برای برنامه‌نویسی با هر دو خط لاتین و فارسی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/zira-code-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/zira-code-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/zira-code.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/zira-code-font-v2.0.0.zip",
-    "source-link": "https://github.com/kiamazi/zira-code-font"
+    "source-link": "https://github.com/kiamazi/zira-code-font",
+    "isVariable": false
   },
   {
     "family": "amiri",
@@ -882,16 +689,7 @@
       "en": "Khaled Hosny",
       "fa": "خالد حسنی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Amiri",
       "fa": "امیری"
@@ -901,16 +699,12 @@
       "en": "A classic Naskh revival designed for high-quality book typography. Combines traditional Arabic calligraphy aesthetics with modern digital precision.",
       "fa": "احیای کلاسیک نسخ برای تایپوگرافی کتاب‌های باکیفیت. زیبایی خوشنویسی سنتی عربی را با دقت دیجیتال مدرن ترکیب می‌کند."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/amiri-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/amiri-700.woff2"
-    },
-    "weights": {
-      "count": 4
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/amiri-{weight}.woff2",
+    "weights": [400, 700],
     "preview-image": "./data/preview-images/amiri.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Amiri-1.003.zip",
-    "source-link": "https://github.com/aliftype/amiri"
+    "source-link": "https://github.com/aliftype/amiri",
+    "isVariable": false
   },
   {
     "family": "parastoo",
@@ -922,12 +716,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la"],
     "name": {
       "en": "Parastoo",
       "fa": "پرستو"
@@ -937,16 +726,12 @@
       "en": "A Persian serif inspired by the Naskh script. Offers a traditional yet readable character suitable for literary and formal texts.",
       "fa": "سریف فارسی الهام‌گرفته از خط نسخ. شخصیتی سنتی اما خوانا دارد و برای متون ادبی و رسمی مناسب است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/parastoo-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/parastoo-700.woff2"
-    },
-    "weights": {
-      "count": 2
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/parastoo-{weight}.woff2",
+    "weights": [400, 700],
     "preview-image": "./data/preview-images/parastoo.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/parastoo-font-v2.0.1.zip",
-    "source-link": "https://github.com/rastikerdar/parastoo-font"
+    "source-link": "https://github.com/rastikerdar/parastoo-font",
+    "isVariable": false
   },
   {
     "family": "gandom",
@@ -958,11 +743,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Gandom",
       "fa": "گندم"
@@ -972,15 +753,12 @@
       "en": "A Persian serif based on the Naskh tradition. Soft and approachable design that works well for longer reading texts.",
       "fa": "سریف فارسی بر پایهٔ سنت نسخ. طراحی نرم و دوستانه که برای متون طولانی مناسب است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/gandom-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/gandom-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/gandom.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/gandom-font-v0.8.zip",
-    "source-link": "https://github.com/rastikerdar/gandom-font"
+    "source-link": "https://github.com/rastikerdar/gandom-font",
+    "isVariable": false
   },
   {
     "family": "mirza",
@@ -992,16 +770,7 @@
       "en": "Kourosh Beigpour",
       "fa": "کورش بیگ‌پور"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Mirza",
       "fa": "میرزا"
@@ -1011,18 +780,12 @@
       "en": "A contemporary display Nastaliq typeface. Captures the elegance of traditional Nastaliq while being optimized for digital use.",
       "fa": "فونت نمایشی نستعلیق معاصر. ظرافت نستعلیق سنتی را حفظ می‌کند و برای استفادهٔ دیجیتال بهینه‌سازی شده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mirza-400.woff2",
-      "500": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mirza-500.woff2",
-      "600": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mirza-600.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mirza-700.woff2"
-    },
-    "weights": {
-      "count": 4
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mirza-{weight}.woff2",
+    "weights": [400, 500, 600, 700],
     "preview-image": "./data/preview-images/mirza.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Mirza.zip",
-    "source-link": "https://github.com/Tarobish/Mirza"
+    "source-link": "https://github.com/Tarobish/Mirza",
+    "isVariable": false
   },
   {
     "family": "katibeh",
@@ -1034,16 +797,7 @@
       "en": "Kourosh Beigpour",
       "fa": "کورش بیگ‌پور"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Katibeh",
       "fa": "کتیبه"
@@ -1053,15 +807,12 @@
       "en": "A display face blending Naskh and Thuluth styles. Bold and decorative, ideal for titles and ceremonial texts.",
       "fa": "فونت نمایشی ترکیبی از نسخ و ثلث. ضخیم و تزئینی، ایده‌آل برای عناوین و متون تشریفاتی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/katibeh-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/katibeh-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/katibeh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Katibeh-Regular.ttf",
-    "source-link": "https://github.com/Tarobish/Katibeh"
+    "source-link": "https://github.com/Tarobish/Katibeh",
+    "isVariable": false
   },
   {
     "family": "nika",
@@ -1073,10 +824,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Nika",
       "fa": "نیکا"
@@ -1086,15 +834,12 @@
       "en": "A classic Naskh-style Persian serif. Traditional proportions with clear letterforms for formal and literary use.",
       "fa": "سریف فارسی در سبک نسخ کلاسیک. تناسبات سنتی با حروف واضح برای استفادهٔ رسمی و ادبی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nika-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nika-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/nika.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nika.v1.0.0.zip",
-    "source-link": "https://github.com/font-store/NikaFont"
+    "source-link": "https://github.com/font-store/NikaFont",
+    "isVariable": false
   },
   {
     "family": "farbod",
@@ -1106,10 +851,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Farbod",
       "fa": "فربد"
@@ -1119,15 +861,12 @@
       "en": "A formal Naskh-inspired Persian serif. Structured and elegant, suitable for official documents and printed materials.",
       "fa": "سریف فارسی الهام‌گرفته از نسخ رسمی. ساخت‌یافته و شیک، مناسب اسناد رسمی و مواد چاپی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/farbod-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/farbod-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/farbod.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Farbod-3.2.5.zip",
-    "source-link": "https://github.com/font-store/FarbodFont"
+    "source-link": "https://github.com/font-store/FarbodFont",
+    "isVariable": false
   },
   {
     "family": "freefarsi",
@@ -1139,11 +878,7 @@
       "en": "Abbas Izad",
       "fa": "عباس ایزد"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "FreeFarsi",
       "fa": "فری‌فارسی"
@@ -1152,17 +887,13 @@
       "en": "A free Persian Unicode serif font with broad language support. Practical choice for general text and multilingual documents.",
       "fa": "قلم سریف آزاد یونیکد فارسی با پشتیبانی گسترده از زبان‌ها. انتخاب کاربردی برای متن‌های عمومی و اسناد چندزبانه."
     },
-    "weights": {
-      "count": 5
-    },
+    "weights": [400, 700],
     "license": "Apache",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/freefarsi-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/freefarsi-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/freefarsi-{weight}.woff2",
     "preview-image": "./data/preview-images/freefarsi.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/freefarsi.zip",
-    "source-link": "https://fontlibrary.org/en/font/freefarsi"
+    "source-link": "https://fontlibrary.org/en/font/freefarsi",
+    "isVariable": false
   },
   {
     "family": "homa",
@@ -1174,10 +905,7 @@
       "en": "Sharif Farsiweb Inc.",
       "fa": "شرکت فارسی‌وب شریف"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Homa",
       "fa": "هما"
@@ -1186,16 +914,13 @@
       "en": "A classic Persian serif with traditional proportions. Long-standing choice for formal and literary Persian typography.",
       "fa": "سریف کلاسیک فارسی با تناسبات سنتی. انتخاب دیرین برای تایپوگرافی رسمی و ادبی فارسی."
     },
-    "weights": {
-      "count": 1
-    },
+    "weights": [400],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/homa-400.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/homa-{weight}.woff2",
     "preview-image": "./data/preview-images/homa.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/homa.ttf",
-    "source-link": "https://github.com/behnam/fonts-farsiweb"
+    "source-link": "https://github.com/behnam/fonts-farsiweb",
+    "isVariable": false
   },
   {
     "family": "pfont",
@@ -1207,14 +932,7 @@
       "en": "Damoon Khanjanzadeh",
       "fa": "دامون خانجان‌زاده"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "ps", "ug", "ur"],
     "name": {
       "en": "Free Persian Font",
       "fa": "قلم آزاد"
@@ -1224,15 +942,12 @@
       "en": "A readable and standard Persian serif font. Designed for clarity across multiple languages of the region.",
       "fa": "قلم سریف خوانا و استاندارد فارسی. برای وضوح در زبان‌های مختلف منطقه طراحی شده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/pfont-400.woff2"
-    },
-    "weights": {
-      "count": 3
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/pfont-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/pfont.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/pfont.zip",
-    "source-link": "https://github.com/pfont/pfont"
+    "source-link": "https://github.com/pfont/pfont",
+    "isVariable": false
   },
   {
     "family": "nazli",
@@ -1244,11 +959,7 @@
       "en": "Sharif FarsiWeb Inc.",
       "fa": "شرکت شریف فارسی‌وب"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Nazli",
       "fa": "نازلی"
@@ -1257,17 +968,13 @@
       "en": "A Persian serif based on the classic Nazanin style. Soft and elegant letterforms suitable for literary and formal texts.",
       "fa": "سریف فارسی بر پایهٔ سبک کلاسیک نازنین. حروف نرم و شیک مناسب متون ادبی و رسمی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nazli-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nazli-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/nazli-{weight}.woff2",
     "preview-image": "./data/preview-images/nazli.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/nazli.zip",
-    "source-link": "https://fontlibrary.org/en/font/nazli"
+    "source-link": "https://fontlibrary.org/en/font/nazli",
+    "isVariable": false
   },
   {
     "family": "roya",
@@ -1279,10 +986,7 @@
       "en": "Sharif Farsiweb Inc.",
       "fa": "شرکت شریف فارسی‌وب"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Roya",
       "fa": "رویا"
@@ -1291,21 +995,13 @@
       "en": "A classic Persian serif with balanced proportions. Popular for formal documents and traditional print work.",
       "fa": "سریف کلاسیک فارسی با تناسبات متعادل. محبوب برای اسناد رسمی و کارهای چاپی سنتی."
     },
-    "note": {
-      "en": "X-Series variant XB Roya (Irmug, GPL, 4 weights) also available: https://fontlibrary.org/en/font/xb-roya",
-      "fa": "نسخهٔ XB رویا از سری X (ایرماگ، GPL، ۴ وزن) نیز موجود است: https://fontlibrary.org/en/font/xb-roya"
-    },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "BVL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/roya-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/roya-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/roya-{weight}.woff2",
     "preview-image": "./data/preview-images/roya.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/roya.zip",
-    "source-link": "https://fontlibrary.org/en/font/roya"
+    "source-link": "https://fontlibrary.org/en/font/roya",
+    "isVariable": false
   },
   {
     "family": "lateef",
@@ -1317,11 +1013,7 @@
       "en": "SIL International",
       "fa": "سازمان SIL"
     },
-    "supportedLanguages": [
-      "ar",
-      "la",
-      "sd"
-    ],
+    "supportedLanguages": ["ar", "la", "sd"],
     "name": {
       "en": "Lateef",
       "fa": "لطیف"
@@ -1331,13 +1023,12 @@
       "en": "A Naskh-style Arabic-Latin typeface from SIL, originally developed for Sindhi.",
       "fa": "فونت عربی-لاتین از سازمان SIL در سبک نسخ؛ در اصل برای زبان سندی طراحی شده است."
     },
-    "woff2": "https://fonts.googleapis.com/css2?family=Lateef:wght@400;500;600;700&display=swap",
-    "weights": {
-      "count": 4
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lateef-{weight}.woff2",
+    "weights": [200, 300, 400, 500, 600, 700, 800],
     "preview-image": "./data/preview-images/lateef.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/lateef",
-    "source-link": "https://fonts.google.com/specimen/Lateef"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
+    "source-link": "https://software.sil.org/lateef/",
+    "isVariable": false
   },
   {
     "family": "xb-yas",
@@ -1349,15 +1040,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Yas",
       "fa": "XB یاس"
@@ -1366,17 +1049,13 @@
       "en": "A classic Persian serif from the X-Series. Traditional design with good support for multiple regional languages.",
       "fa": "سریف کلاسیک فارسی از سری X. طراحی سنتی با پشتیبانی خوب از زبان‌های منطقه‌ای."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yas-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yas-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yas-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-yas.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Yas.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-yas"
+    "source-link": "https://fontlibrary.org/en/font/xb-yas",
+    "isVariable": false
   },
   {
     "family": "xb-riyaz",
@@ -1388,15 +1067,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Riyaz",
       "fa": "XB ریاض"
@@ -1405,17 +1076,13 @@
       "en": "A classic Persian serif from the X-Series. Structured and formal, suitable for educational and official materials.",
       "fa": "سریف کلاسیک فارسی از سری X. ساخت‌یافته و رسمی، مناسب مطالب آموزشی و رسمی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-riyaz-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-riyaz-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-riyaz-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-riyaz.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Riyaz.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-riyaz"
+    "source-link": "https://fontlibrary.org/en/font/xb-riyaz",
+    "isVariable": false
   },
   {
     "family": "xb-zar",
@@ -1427,15 +1094,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Zar",
       "fa": "XB زر"
@@ -1444,17 +1103,13 @@
       "en": "A classic Persian serif from the X-Series. Elegant traditional forms with broad language coverage.",
       "fa": "سریف کلاسیک فارسی از سری X. فرم‌های سنتی شیک با پوشش گستردهٔ زبانی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "OFL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-zar-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-zar-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-zar-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-zar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Zar.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-zar"
+    "source-link": "https://fontlibrary.org/en/font/xb-zar",
+    "isVariable": false
   },
   {
     "family": "xb-shafigh",
@@ -1466,15 +1121,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Shafigh",
       "fa": "XB شفیق"
@@ -1483,17 +1130,13 @@
       "en": "A classic Persian serif from the X-Series. Traditional design with variants available for Kurdish and Uzbek.",
       "fa": "سریف کلاسیک فارسی از سری X. طراحی سنتی با گونه‌های موجود برای کردی و ازبکی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-shafigh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-shafigh"
+    "source-link": "https://fontlibrary.org/en/font/xb-shafigh",
+    "isVariable": false
   },
   {
     "family": "xb-shafigh-kurd",
@@ -1505,15 +1148,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Shafigh Kurd",
       "fa": "XB شفیق کرد"
@@ -1522,17 +1157,13 @@
       "en": "The Kurdish variant of the classic Shafigh Persian serif. Adapted letterforms for better Kurdish orthography support.",
       "fa": "گونهٔ کردی سریف کلاسیک شفیق. حروف تطبیق‌یافته برای پشتیبانی بهتر از نوشتار کردی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-kurd-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-kurd-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-kurd-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-shafigh-kurd.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh Kurd.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-shafigh-kurd"
+    "source-link": "https://fontlibrary.org/en/font/xb-shafigh-kurd",
+    "isVariable": false
   },
   {
     "family": "xb-shafigh-uzbek",
@@ -1544,15 +1175,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Shafigh Uzbek",
       "fa": "XB شفیق ازبک"
@@ -1561,17 +1184,13 @@
       "en": "The Uzbek variant of the classic Shafigh Persian serif. Adjusted for Uzbek writing conventions while keeping the original character.",
       "fa": "گونهٔ ازبکی سریف کلاسیک شفیق. برای قراردادهای نوشتاری ازبکی تنظیم شده و شخصیت اصلی حفظ شده است."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-uzbek-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-uzbek-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-shafigh-uzbek-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-shafigh-uzbek.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Shafigh Uzbek.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-shafigh-uzbek"
+    "source-link": "https://fontlibrary.org/en/font/xb-shafigh-uzbek",
+    "isVariable": false
   },
   {
     "family": "xm-traffic",
@@ -1583,15 +1202,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XM Traffic",
       "fa": "XM ترافیک"
@@ -1600,17 +1211,13 @@
       "en": "A classic Persian serif designed for clear readability. Often used in signage and informational materials.",
       "fa": "سریف کلاسیک فارسی طراحی‌شده برای خوانایی واضح. اغلب در تابلوها و مطالب اطلاع‌رسانی استفاده می‌شود."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "OFL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xm-traffic-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xm-traffic-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xm-traffic-{weight}.woff2",
     "preview-image": "./data/preview-images/xm-traffic.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Traffic.zip",
-    "source-link": "https://fontlibrary.org/en/font/xm-traffic"
+    "source-link": "https://fontlibrary.org/en/font/xm-traffic",
+    "isVariable": false
   },
   {
     "family": "xb-kayhan",
@@ -1622,15 +1229,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Kayhan",
       "fa": "XB کیهان"
@@ -1639,17 +1238,13 @@
       "en": "A minified version of the classic Kayhan Persian serif. Compact and efficient while retaining traditional character.",
       "fa": "نسخهٔ فشردهٔ سریف کلاسیک کیهان. فشرده و کارآمد در حالی که شخصیت سنتی حفظ شده است."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "OFL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-kayhan-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-kayhan-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-kayhan-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-kayhan.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xb-kayhan-minified.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-kayhan-minified"
+    "source-link": "https://fontlibrary.org/en/font/xb-kayhan-minified",
+    "isVariable": false
   },
   {
     "family": "xb-niloofar",
@@ -1661,15 +1256,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Niloofar",
       "fa": "XB نیلوفر"
@@ -1678,17 +1265,13 @@
       "en": "A classic Persian serif from the X-Series. Soft and flowing forms inspired by traditional calligraphy.",
       "fa": "سریف کلاسیک فارسی از سری X. فرم‌های نرم و روان الهام‌گرفته از خوشنویسی سنتی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "OFL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-niloofar-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-niloofar-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-niloofar-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-niloofar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Niloofar.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-niloofar"
+    "source-link": "https://fontlibrary.org/en/font/xb-niloofar",
+    "isVariable": false
   },
   {
     "family": "xb-sols",
@@ -1700,15 +1283,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Sols",
       "fa": "XB سولس"
@@ -1717,17 +1292,13 @@
       "en": "A classic Persian serif from the X-Series. Clear and well-proportioned for general text use.",
       "fa": "سریف کلاسیک فارسی از سری X. واضح و با تناسبات خوب برای استفاده در متن‌های عمومی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-sols-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-sols-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-sols-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-sols.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Sols.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-sols"
+    "source-link": "https://fontlibrary.org/en/font/xb-sols",
+    "isVariable": false
   },
   {
     "family": "xb-yagut",
@@ -1739,15 +1310,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Yagut",
       "fa": "XB یاقوت"
@@ -1756,17 +1319,13 @@
       "en": "A classic Persian serif from the X-Series. Refined traditional design suitable for formal and literary applications.",
       "fa": "سریف کلاسیک فارسی از سری X. طراحی سنتی ظریف مناسب کاربردهای رسمی و ادبی."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yagut-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yagut-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-yagut-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-yagut.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Yagut.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-yagut"
+    "source-link": "https://fontlibrary.org/en/font/xb-yagut",
+    "isVariable": false
   },
   {
     "family": "noon",
@@ -1778,15 +1337,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Noon",
       "fa": "نون"
@@ -1796,15 +1347,12 @@
       "en": "A specialized Naskh typeface designed for Quran printing. High attention to traditional proportions and diacritic placement.",
       "fa": "فونت نسخ تخصصی برای چاپ قرآن. توجه ویژه به تناسبات سنتی و قرارگیری علائم."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noon-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noon-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/noon.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Noon-Regular.zip",
-    "source-link": "https://github.com/font-store/NoonFont"
+    "source-link": "https://github.com/font-store/NoonFont",
+    "isVariable": false
   },
   {
     "family": "iranian-serif",
@@ -1816,10 +1364,7 @@
       "en": "Hooman Mehr, Hadi Navid",
       "fa": "هومن مهر، هادی نوید،"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Iranian Serif",
       "fa": "ایرانیان سریف"
@@ -1829,15 +1374,12 @@
       "en": "A free Persian serif font with traditional character. Simple and practical for general formal use.",
       "fa": "قلم سریف آزاد فارسی با شخصیت سنتی. ساده و کاربردی برای استفادهٔ رسمی عمومی."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-serif-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/iranian-serif-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/iranian-serif.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/iranian-serif.zip",
-    "source-link": "https://fontlibrary.org/en/font/iranian-serif"
+    "source-link": "https://fontlibrary.org/en/font/iranian-serif",
+    "isVariable": false
   },
   {
     "family": "mikhak",
@@ -1849,13 +1391,7 @@
       "en": "Amin Abedi",
       "fa": "امین عابدی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Mikhak",
       "fa": "میخک"
@@ -1866,13 +1402,10 @@
       "fa": "قلم نیمه‌دست‌نویس و مونو-عرض فارسی با شخصیت دوستانه."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mikhak.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/mikhak.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Mikhak-v3.4.zip",
-    "source-link": "https://github.com/aminabedi68/Mikhak"
+    "source-link": "https://github.com/aminabedi68/Mikhak",
+    "isVariable": true
   },
   {
     "family": "tanha",
@@ -1884,11 +1417,7 @@
       "en": "Saber Rastikerdar",
       "fa": "صابر راستی‌کردار"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Tanha",
       "fa": "تنها"
@@ -1898,15 +1427,12 @@
       "en": "An informal handwritten-style Persian font. Soft and personal character ideal for casual notes and friendly designs.",
       "fa": "قلم غیررسمی و دست‌نویس‌مانند فارسی. شخصیت نرم و شخصی ایده‌آل برای یادداشت‌های غیررسمی و طراحی‌های دوستانه."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/tanha-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/tanha-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/tanha.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/tanha-font-v0.10.zip",
-    "source-link": "https://github.com/rastikerdar/tanha-font"
+    "source-link": "https://github.com/rastikerdar/tanha-font",
+    "isVariable": false
   },
   {
     "family": "xp-paatch",
@@ -1918,15 +1444,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XP Paatch",
       "fa": "XP پاچ"
@@ -1935,17 +1453,13 @@
       "en": "A casual Persian typeface with a distinctive and approachable character. Suitable for informal titles and creative projects.",
       "fa": "قلم غیررسمی فارسی با شخصیت متمایز و دوستانه. مناسب عناوین غیررسمی و پروژه‌های خلاقانه."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [200, 400],
     "license": "OFL",
-    "woff2": {
-      "200": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-paatch-200.woff2",
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-paatch-400.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-paatch-{weight}.woff2",
     "preview-image": "./data/preview-images/xp-paatch.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xp-paatch.zip",
-    "source-link": "https://fontlibrary.org/en/font/xp-paatch"
+    "source-link": "https://fontlibrary.org/en/font/xp-paatch",
+    "isVariable": false
   },
   {
     "family": "rooyinFree",
@@ -1957,13 +1471,7 @@
       "en": "Mohammad Darvishi",
       "fa": "محمد درویشی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Rooyin",
       "fa": "رویین"
@@ -1973,16 +1481,12 @@
       "en": "A modern pixel Persian typeface. Clean pixel grid with contemporary proportions for digital and retro-inspired designs.",
       "fa": "قلم پیکسلی مدرن فارسی. شبکهٔ پیکسلی تمیز با تناسبات معاصر برای طراحی‌های دیجیتال و الهام‌گرفته از رترو."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rooyinfree-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rooyinfree-700.woff2"
-    },
-    "weights": {
-      "count": 2
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rooyinfree-{weight}.woff2",
+    "weights": [400, 700],
     "preview-image": "./data/preview-images/rooyinFree.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Rooyin-Free.zip",
-    "source-link": "https://github.com/MohamadDarvishi/Rooyin"
+    "source-link": "https://github.com/MohamadDarvishi/Rooyin",
+    "isVariable": false
   },
   {
     "family": "sorena",
@@ -1994,13 +1498,7 @@
       "en": "Mohammad Darvishi",
       "fa": "محمد درویشی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Sorena",
       "fa": "سورنا"
@@ -2011,18 +1509,16 @@
       "fa": "قلم پیکسلی مینیمال فارسی در دو حالت Normal و Pixel. با توجه دقیق به قواعد شبکهٔ پیکسلی طراحی شده است."
     },
     "note": {
-      "en": "The Sorena font was created in two styles: Normal and Pixel. The Pixel style follows pixel-based rules completely. In the Normal style, some elements do not adhere to pixel-based rules in order to achieve a more aesthetically pleasing appearance.",
-      "fa": "فونت سورنا در دو حالت Normal & Pixel ساخته شده است. حالت Pixel کاملاً بر اساس قواعد پیکسلی است. حالت Normal برای زیبایی بیشتر، بعضی موارد فونت به قواعد پیکسلی پایبند نیست."
+      "en": "It has two styles: Normal and Pixel. The Pixel style follows pixel-based rules completely. In the Normal style, some elements do not adhere to pixel-based rules in order to achieve a more aesthetically pleasing appearance.",
+      "fa": "این فونت دو حالت Normal & Pixel دارد. حالت Pixel کاملاً بر اساس قواعد پیکسلی است. حالت Normal برای زیبایی بیشتر، بعضی موارد فونت به قواعد پیکسلی پایبند نیست."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sorena-400.woff2"
-    },
-    "weights": {
-      "count": 2
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/sorena-{style}-{weight}.woff2",
+    "weights": [400],
+    "styles": ["", "Pixel"],
     "preview-image": "./data/preview-images/sorena.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Sorena.zip",
-    "source-link": "https://github.com/MohamadDarvishi/Sorena"
+    "source-link": "https://github.com/MohamadDarvishi/Sorena",
+    "isVariable": false
   },
   {
     "family": "noqte",
@@ -2034,11 +1530,7 @@
       "en": "Mehdi Sadeghi",
       "fa": "مهدی صادقی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "fa", "la"],
     "name": {
       "en": "Noqte",
       "fa": "نقطه"
@@ -2048,15 +1540,49 @@
       "en": "A minimal pixel Persian typeface with a distinctive and compact character. Perfect for small sizes and retro digital aesthetics.",
       "fa": "قلم پیکسلی مینیمال فارسی با شخصیت متمایز و فشرده. عالی برای اندازه‌های کوچک و زیبایی‌شناسی دیجیتال رترو."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noqte-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noqte-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/noqte.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/noqte.ttf",
-    "source-link": "https://github.com/mehdisadeghi/Noqte"
+    "source-link": "https://github.com/mehdisadeghi/Noqte",
+    "isVariable": false
+  },
+  {
+    "family": "handjet",
+    "style": {
+      "en": "Pixel",
+      "fa": "پیکسلی"
+    },
+    "Designer": {
+      "en": "David Březina",
+      "fa": "دیوید برزینا"
+    },
+    "supportedLanguages": ["ar", "la"],
+    "name": {
+      "en": "Handjet",
+      "fa": "هندجت"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A variable pixel font with customizable element-shape and grid axes, covering dozens of scripts.",
+      "fa": "فونت پیکسلی متغیر با محورهای قابل‌تنظیم شکل و شبکهٔ عناصر؛ پشتیبانی از ده‌ها خط نوشتاری."
+    },
+    "axes": [
+      {
+        "tag": "ELSH",
+        "name": {
+          "en": "Pixel style",
+          "fa": "سبک پیکسل‌ها"
+        },
+        "min": 1,
+        "max": 16
+      }
+    ],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/handjet.woff2",
+    "preview-image": "./data/preview-images/handjet.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Handjet.zip",
+    "source-link": "https://rosettatype.com/",
+    "isVariable": true
   },
   {
     "family": "ario",
@@ -2068,13 +1594,7 @@
       "en": "Mohammad Darvishi",
       "fa": "محمد درویشی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ur"],
     "name": {
       "en": "Ario",
       "fa": "آریو"
@@ -2084,15 +1604,12 @@
       "en": "A bold display face based on Estedad. Strong and impactful design intended for headlines and large-scale use.",
       "fa": "فونت نمایشی ضخیم بر پایهٔ استعداد. طراحی قوی و تأثیرگذار برای عناوین و استفاده در مقیاس بزرگ."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/ario-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/ario-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/ario.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Ario_2.0.1.zip",
-    "source-link": "https://github.com/MohamadDarvishi/Ario"
+    "source-link": "https://github.com/MohamadDarvishi/Ario",
+    "isVariable": false
   },
   {
     "family": "lalezar",
@@ -2104,12 +1621,7 @@
       "en": "Borna Izadpanah",
       "fa": "برنا ایزدپناه"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
     "name": {
       "en": "Lalezar",
       "fa": "لاله‌زار"
@@ -2119,15 +1631,12 @@
       "en": "A bold display typeface inspired by old Iranian posters. Strong personality and high visual impact for titles and branding.",
       "fa": "فونت نمایشی ضخیم با الهام از پوسترهای قدیمی ایرانی. شخصیت قوی و تأثیر بصری بالا برای عناوین و برندینگ."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lalezar-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lalezar-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/lalezar.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lalezar-Regular.ttf",
-    "source-link": "https://github.com/BornaIz/Lalezar"
+    "source-link": "https://github.com/BornaIz/Lalezar",
+    "isVariable": false
   },
   {
     "family": "mim-bold",
@@ -2139,12 +1648,7 @@
       "en": "Mahdi Ravandi & Mojtaba Zand",
       "fa": "مهدی روندی و مجتبی زند"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa",
-      "la",
-      "ckb"
-    ],
+    "supportedLanguages": ["ar", "fa", "la", "ckb"],
     "name": {
       "en": "Ghadim",
       "fa": "قدیم"
@@ -2154,15 +1658,12 @@
       "en": "A font similar to the typeface used in old Iranian newspapers",
       "fa": "فونتی شبیه به متن روزنامه‌های قدیمی ایرانی"
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mim-bold-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/mim-bold-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/mim-bold.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Ghadim Font.zip",
-    "source-link": "https://t.me/fonthacom"
+    "source-link": "https://t.me/fonthacom",
+    "isVariable": false
   },
   {
     "family": "jomhuria",
@@ -2174,16 +1675,7 @@
       "en": "Kourosh Beigpour",
       "fa": "کورش بیگ‌پور"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Jomhuria",
       "fa": "جمهوری"
@@ -2193,15 +1685,12 @@
       "en": "A bold and expressive display face. Designed for strong headlines and impactful visual communication.",
       "fa": "فونت نمایشی ضخیم و بیانگر. برای عناوین قوی و ارتباطات بصری تأثیرگذار طراحی شده است."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/jomhuria-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/jomhuria-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/jomhuria.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Jomhuria-Regular.ttf",
-    "source-link": "https://github.com/Tarobish/Jomhuria"
+    "source-link": "https://github.com/Tarobish/Jomhuria",
+    "isVariable": false
   },
   {
     "family": "xb-titre",
@@ -2213,15 +1702,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XB Titre",
       "fa": "XB تیتر"
@@ -2230,19 +1711,16 @@
       "en": "A classic display Persian typeface from the X-Series. Designed specifically for titles and large-size text.",
       "fa": "قلم نمایشی کلاسیک فارسی از سری X. به‌طور خاص برای عناوین و متن‌های بزرگ طراحی شده است."
     },
-    "weights": {
-      "count": 1
-    },
+    "weights": [400],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-titre-400.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xb-titre-{weight}.woff2",
     "preview-image": "./data/preview-images/xb-titre.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/xb-titre.zip",
-    "source-link": "https://fontlibrary.org/en/font/xb-titre"
+    "source-link": "https://fontlibrary.org/en/font/xb-titre",
+    "isVariable": false
   },
   {
-    "family": "badeen-display",
+    "family": "badeen display",
     "style": {
       "en": "Display",
       "fa": "نمایشی"
@@ -2251,10 +1729,7 @@
       "en": "Hani Alasadi",
       "fa": "هانی الاسدی"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Badeen Display",
       "fa": "بدین دیسپلی"
@@ -2264,15 +1739,12 @@
       "en": "An Arabic display typeface with a bold, poster-like character for headlines and branding.",
       "fa": "فونت نمایشی عربی با شخصیت ضخیم و پوستری؛ مناسب تیتر و برندینگ."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/badeen-display-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/badeen-display-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/badeen-display.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/badeendisplay",
-    "source-link": "https://fonts.google.com/specimen/Badeen+Display"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Badeen_Display.zip",
+    "source-link": "https://github.com/haniadnansd/Badeen-Display",
+    "isVariable": false
   },
   {
     "family": "blaka",
@@ -2284,10 +1756,7 @@
       "en": "Mohamed Gaber",
       "fa": "محمد جابر"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Blaka",
       "fa": "بلاکا"
@@ -2298,86 +1767,11 @@
       "fa": "فونت نمایشی ضخیم عربی با شخصیت قوی و متمایز؛ مناسب عناوین."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/blaka-400.woff2",
-    "weights": {
-      "count": 1
-    },
+    "weights": [400],
     "preview-image": "./data/preview-images/blaka.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/blaka",
-    "source-link": "https://fonts.google.com/specimen/Blaka"
-  },
-  {
-    "family": "gulzar",
-    "style": {
-      "en": "Display",
-      "fa": "نمایشی"
-    },
-    "Designer": {
-      "en": "Borna Izadpanah",
-      "fa": "برنا ایزدپناه"
-    },
-    "supportedLanguages": [
-      "ar",
-      "la",
-      "ur"
-    ],
-    "name": {
-      "en": "Gulzar",
-      "fa": "گلزار"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "A Nastaliq typeface designed primarily for Urdu, suitable for poetry and literary texts.",
-      "fa": "فونت نستعلیق که در اصل برای زبان اردو طراحی شده؛ مناسب شعر و متون ادبی."
-    },
-    "note": {
-      "en": "Like all Nastaliq fonts, it requires generous line-height.",
-      "fa": "مانند همهٔ فونت‌های نستعلیق به line-height بزرگ نیاز دارد."
-    },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/gulzar-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
-    "preview-image": "./data/preview-images/gulzar.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/gulzar",
-    "source-link": "https://fonts.google.com/specimen/Gulzar"
-  },
-  {
-    "family": "handjet",
-    "style": {
-      "en": "Display",
-      "fa": "نمایشی"
-    },
-    "Designer": {
-      "en": "David Březina",
-      "fa": "دیوید برزینا"
-    },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
-    "name": {
-      "en": "Handjet",
-      "fa": "هندجت"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "A variable pixel font with customizable element-shape and grid axes, covering dozens of scripts.",
-      "fa": "فونت پیکسلی متغیر با محورهای قابل‌تنظیم شکل و شبکهٔ عناصر؛ پشتیبانی از ده‌ها خط نوشتاری."
-    },
-    "note": {
-      "en": "In addition to weight, it has ELGR (grid) and ELSH (shape) variable axes.",
-      "fa": "علاوه بر وزن، محورهای متغیر ELGR (شبکه) و ELSH (شکل) دارد."
-    },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/handjet.woff2",
-    "weights": {
-      "count": 9,
-      "variable": true
-    },
-    "preview-image": "./data/preview-images/handjet.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/handjet",
-    "source-link": "https://fonts.google.com/specimen/Handjet"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Blaka.zip",
+    "source-link": "https://gaber.design/blaka-font-family-free-open-source",
+    "isVariable": false
   },
   {
     "family": "marhey",
@@ -2389,10 +1783,7 @@
       "en": "Nur Syamsi + Bustanul Arifin",
       "fa": "نور سیامسی + بستان‌الا‌ارفین"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Marhey",
       "fa": "مرحی"
@@ -2403,50 +1794,10 @@
       "fa": "فونت نمایشی شاد و سرگرم‌کنندهٔ عربی با محور وزن متغیر."
     },
     "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/marhey.woff2",
-    "weights": {
-      "count": 5,
-      "variable": true
-    },
     "preview-image": "./data/preview-images/marhey.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/marhey",
-    "source-link": "https://fonts.google.com/specimen/Marhey"
-  },
-  {
-    "family": "noto-nastaliq-urdu",
-    "style": {
-      "en": "Display",
-      "fa": "نمایشی"
-    },
-    "Designer": {
-      "en": "Noto Project (Google)",
-      "fa": "پروژهٔ نوتو (گوگل)"
-    },
-    "supportedLanguages": [
-      "ar",
-      "la",
-      "ur"
-    ],
-    "name": {
-      "en": "Noto Nastaliq Urdu",
-      "fa": "نوتو نستعلیق اردو"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "Google's Nastaliq typeface for Urdu, part of the Noto project.",
-      "fa": "فونت نستعلیق اردو از پروژهٔ نوتو گوگل."
-    },
-    "note": {
-      "en": "Single weight only; tall line-height required.",
-      "fa": "فقط یک وزن دارد؛ به line-height بلند نیاز دارد."
-    },
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noto-nastaliq-urdu.woff2",
-    "weights": {
-      "count": 2,
-      "variable": true
-    },
-    "preview-image": "./data/preview-images/noto-nastaliq-urdu.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/notonastaliqurdu",
-    "source-link": "https://fonts.google.com/specimen/Noto+Nastaliq+Urdu"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Marhey.zip",
+    "source-link": "https://fonts.google.com/specimen/Marhey",
+    "isVariable": true
   },
   {
     "family": "oi",
@@ -2458,10 +1809,7 @@
       "en": "Kostas Bartsokas",
       "fa": "کوستاس بارتسوکاس"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Oi",
       "fa": "اوی"
@@ -2471,30 +1819,24 @@
       "en": "An ultra-bold Arabic-Latin display face with a bold, playful character.",
       "fa": "فونت نمایشی فوق‌ضخیم عربی-لاتین با شخصیت قوی و نمایشی."
     },
-    "woff2": {
-    "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/oi-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/oi-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/oi.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/oi",
-    "source-link": "https://fonts.google.com/specimen/Oi"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Oi.zip",
+    "source-link": "https://github.com/kosbarts/Oi",
+    "isVariable": false
   },
   {
     "family": "vibes",
     "style": {
-      "en": "Display",
-      "fa": "نمایشی"
+      "en": "Decorative",
+      "fa": "تزئینی"
     },
     "Designer": {
       "en": "AbdElmomen Kadhim",
       "fa": "عبدالمؤمن کاظم"
     },
-    "supportedLanguages": [
-      "ar",
-      "la"
-    ],
+    "supportedLanguages": ["ar", "la"],
     "name": {
       "en": "Vibes",
       "fa": "وایبز"
@@ -2504,15 +1846,12 @@
       "en": "An Arabic-Latin display typeface with a retro, funky personality.",
       "fa": "فونت نمایشی عربی-لاتین با حس رترو و پرهیجان."
     },
-    "woff2": {
-    "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vibes-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/vibes-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/vibes.webp",
-    "download-link": "https://github.com/google/fonts/tree/main/ofl/vibes",
-    "source-link": "https://fonts.google.com/specimen/Vibes"
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Vibes.zip",
+    "source-link": "https://fonts.google.com/specimen/Vibes",
+    "isVariable": false
   },
   {
     "family": "iranNastaliq",
@@ -2524,16 +1863,7 @@
       "en": "Mohammad Saleh Souzanchi",
       "fa": "محمد صالح سوزنچی"
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "sd",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
     "name": {
       "en": "Iran Nastaliq",
       "fa": "ایران نستعلیق"
@@ -2543,15 +1873,65 @@
       "en": "A classic Nastaliq typeface for Persian and related scripts. Captures the flowing beauty of traditional Nastaliq calligraphy.",
       "fa": "فونت نستعلیق کلاسیک برای فارسی و خطوط مرتبط. زیبایی روان خوشنویسی سنتی نستعلیق را به تصویر می‌کشد."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/irannastaliq-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/irannastaliq-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/iranNastaliq.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/font-IranNastaliq-1.zip",
-    "source-link": "https://github.com/font-store/font-IranNastaliq"
+    "source-link": "https://github.com/font-store/font-IranNastaliq",
+    "isVariable": false
+  },
+  {
+    "family": "gulzar",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Borna Izadpanah",
+      "fa": "برنا ایزدپناه"
+    },
+    "supportedLanguages": ["ar", "la", "ur"],
+    "name": {
+      "en": "Gulzar",
+      "fa": "گلزار"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A Nastaliq typeface designed primarily for Urdu, suitable for poetry and literary texts.",
+      "fa": "فونت نستعلیق که در اصل برای زبان اردو طراحی شده؛ مناسب شعر و متون ادبی."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/gulzar-{weight}.woff2",
+    "weights": [400],
+    "preview-image": "./data/preview-images/gulzar.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Gulzar.zip",
+    "source-link": "https://gulzarfont.org/",
+    "isVariable": false
+  },
+  {
+    "family": "noto-nastaliq-urdu",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Noto Project (Google)",
+      "fa": "پروژهٔ نوتو (گوگل)"
+    },
+    "supportedLanguages": ["ar", "la", "ur"],
+    "name": {
+      "en": "Noto Nastaliq Urdu",
+      "fa": "نوتو نستعلیق اردو"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "Google's Nastaliq typeface for Urdu, part of the Noto project.",
+      "fa": "فونت نستعلیق اردو از پروژهٔ نوتو گوگل."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/noto-nastaliq-urdu.woff2",
+    "preview-image": "./data/preview-images/noto-nastaliq-urdu.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Noto_Nastaliq_Urdu.zip",
+    "source-link": "https://fonts.google.com/noto/specimen/Noto+Nastaliq+Urdu",
+    "isVariable": true
   },
   {
     "family": "xp-vosta",
@@ -2563,15 +1943,7 @@
       "en": "Behnam",
       "fa": "بهنام "
     },
-    "supportedLanguages": [
-      "ar",
-      "ckb",
-      "fa",
-      "la",
-      "ps",
-      "ug",
-      "ur"
-    ],
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
     "name": {
       "en": "XP Vosta",
       "fa": "XP وستا"
@@ -2580,17 +1952,13 @@
       "en": "A decorative Persian typeface with distinctive and ornamental character. Suitable for titles and special design projects.",
       "fa": "قلم تزئینی فارسی با شخصیت متمایز و زینتی. مناسب عناوین و پروژه‌های طراحی خاص."
     },
-    "weights": {
-      "count": 2
-    },
+    "weights": [400, 700],
     "license": "GPL",
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-vosta-400.woff2",
-      "700": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-vosta-700.woff2"
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/xp-vosta-{weight}.woff2",
     "preview-image": "./data/preview-images/xp-vosta.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Vosta.zip",
-    "source-link": "https://fontlibrary.org/en/font/xp-vosta"
+    "source-link": "https://fontlibrary.org/en/font/xp-vosta",
+    "isVariable": false
   },
   {
     "family": "fandogh",
@@ -2602,10 +1970,7 @@
       "en": "Amin Abedi",
       "fa": "امین عابدی"
     },
-    "supportedLanguages": [
-      "ar",
-      "fa"
-    ],
+    "supportedLanguages": ["ar", "fa"],
     "name": {
       "en": "Fandogh",
       "fa": "فندوق"
@@ -2615,14 +1980,202 @@
       "en": "A fancy and decorative Persian typeface. Playful and ornamental design ideal for creative and festive applications.",
       "fa": "قلم فانتزی و تزئینی فارسی. طراحی بازیگوش و زینتی ایده‌آل برای کاربردهای خلاقانه و جشن."
     },
-    "woff2": {
-      "400": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/fandogh-400.woff2"
-    },
-    "weights": {
-      "count": 1
-    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/fandogh-{weight}.woff2",
+    "weights": [400],
     "preview-image": "./data/preview-images/fandogh.webp",
     "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Fandogh.ttf",
-    "source-link": "https://github.com/aminabedi68/Fandogh"
+    "source-link": "https://github.com/aminabedi68/Fandogh",
+    "isVariable": false
+  },
+  {
+    "family": "reem kufi",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "Designer": {
+      "en": "Khaled Hosny, Santiago Orozco",
+      "fa": "خالد حسنی، سانتیاگو اوروزکو"
+    },
+    "supportedLanguages": ["ar", "en", "vi"],
+    "name": {
+      "en": "Reem Kufi",
+      "fa": "ریم کوفی"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A modern Kufic typeface based on early Mushafi and Fatimid models, combining classical Arabic calligraphy with contemporary proportions. Designed primarily for headings and display use.",
+      "fa": "فونت کوفی مدرن بر اساس مدل‌های اولیه مصحفی و فاطمی، ترکیبی از خوشنویسی کلاسیک عربی با تناسبات معاصر. عمدتاً برای عناوین و کاربردهای نمایشی طراحی شده است."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/reem-kufi-400.woff2",
+    "preview-image": "./data/preview-images/reem kufi.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Reem_Kufi.zip",
+    "source-link": "https://github.com/alif-type/reem-kufi",
+    "isVariable": true
+  },
+  {
+    "family": "aref ruqaa",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "Abdullah Aref, Khaled Hosny",
+      "fa": "عبدالله عارف، خالد حسنی"
+    },
+    "supportedLanguages": ["ar", "en"],
+    "name": {
+      "en": "Aref Ruqaa",
+      "fa": "عارف رقعه"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An Arabic typeface that captures the essence of classical Ruqaa calligraphy. Available in regular and bold weights, with an optional color Ink variant.",
+      "fa": "فونت عربی که جوهر سبک خوشنویسی کلاسیک رقعه را به تصویر می‌کشد. در وزن‌های معمولی و ضخیم موجود است و نسخه رنگی جوهر نیز دارد."
+    },
+    "weights": [400, 700],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/aref-ruqaa-{weight}.woff2",
+    "preview-image": "./data/preview-images/aref ruqaa.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Aref_Ruqaa.zip",
+    "source-link": "https://github.com/alif-type/aref-ruqaa",
+    "isVariable": false
+  },
+  {
+    "family": "scheherazade new",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سیل اینترنشنال"
+    },
+    "supportedLanguages": ["ar", "fa", "ur", "ku", "sd"],
+    "name": {
+      "en": "Scheherazade New",
+      "fa": "شهرزاد نیو"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A traditional Naskh-style Arabic typeface with extensive Unicode coverage. Supports Graphite and OpenType features for complex Arabic script rendering. Ideal for body text and scholarly work.",
+      "fa": "فونت عربی سنتی به سبک نسخ با پوشش گسترده یونیکد. از ویژگی‌های Graphite و OpenType برای رندر پیچیده خط عربی پشتیبانی می‌کند. مناسب برای متن اصلی و کارهای علمی."
+    },
+    "weights": [400, 500, 600, 700],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/scheherazade-new-{weight}.woff2",
+    "preview-image": "./data/preview-images/scheherazade new.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Scheherazade_New.zip",
+    "source-link": "https://software.sil.org/scheherazade",
+    "isVariable": false
+  },
+  {
+    "family": "rakkas",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Zeynep Akay",
+      "fa": "زینب آکای"
+    },
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
+    "name": {
+      "en": "Rakkas",
+      "fa": "رکاس"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A single-weight display typeface inspired by Ruq'ah lettering on Egyptian movie posters from the 1950s–60s. Features rich contextual alternates that emulate traditional calligraphic fluidity.",
+      "fa": "فونت نمایشی تک‌وزن الهام‌گرفته از حروف رقعه روی پوسترهای فیلم مصری دهه ۱۹۵۰ و ۶۰. دارای جایگزین‌های متنی غنی که سیالیت خوشنویسی سنتی را تقلید می‌کند."
+    },
+    "weights": [400],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/rakkas-{weight}.woff2",
+    "preview-image": "./data/preview-images/rakkas.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Rakkas.zip",
+    "source-link": "https://github.com/zeynepakay/Rakkas",
+    "isVariable": false
+  },
+  {
+    "family": "markazi text",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "Borna Izadpanah, Fiona Ross, Florian Runge",
+      "fa": "برنا ایزدپناه، فیونا راس، فلوریان رانگه"
+    },
+    "supportedLanguages": ["ar", "fa", "la", "ur"],
+    "name": {
+      "en": "Markazi Text",
+      "fa": "مرکزی تکست"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "A contemporary text typeface with moderate contrast, inspired by Tim Holloway’s Markazi. Designed for high readability in both Arabic and Latin scripts across print and screen.",
+      "fa": "فونت متن معاصر با کنتراست متوسط، الهام‌گرفته از فونت مرکزی تیم هالووی. طراحی‌شده برای خوانایی بالا در خطوط عربی و لاتین برای چاپ و صفحه نمایش."
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/markazi-text-400.woff2",
+    "preview-image": "./data/preview-images/markazi text.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Markazi_Text.zip",
+    "source-link": "https://github.com/BornaIz/markazitext",
+    "isVariable": true
+  },
+  {
+    "family": "lateef",
+    "style": {
+      "en": "Serif",
+      "fa": "سریف"
+    },
+    "Designer": {
+      "en": "SIL International",
+      "fa": "سیل اینترنشنال"
+    },
+    "supportedLanguages": ["ar", "sd", "ur", "fa", "ps"],
+    "name": {
+      "en": "Lateef",
+      "fa": "لطیف"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "An extended Naskh-style Arabic font named after the Sindhi mystic Shah Abdul Lateef Bhitai. Designed for linguistic documentation and extended text use, especially for Sindhi and related languages of southern Asia.",
+      "fa": "فونت عربی گسترش‌یافته به سبک نسخ به نام عارف سندی شاه عبداللطیف بهتایی. طراحی‌شده برای مستندسازی زبانی و استفاده در متن‌های طولانی، به‌ویژه برای زبان سندی و زبان‌های مرتبط جنوب آسیا."
+    },
+    "weights": [200, 300, 400, 500, 600, 700, 800],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lateef-{weight}.woff2",
+    "preview-image": "./data/preview-images/lateef.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
+    "source-link": "https://software.sil.org/lateef",
+    "isVariable": false
+  },
+  {
+    "family": "awami nastaliq",
+    "style": {
+      "en": "Display",
+      "fa": "نمایشی"
+    },
+    "Designer": {
+      "en": "Jonathan Kew",
+      "fa": "جاناتان کیو"
+    },
+    "supportedLanguages": ["ur", "fa", "ar", "la", "ckb", "ps", "ug"],
+    "name": {
+      "en": "Awami Nastaliq",
+      "fa": "عوامی نستعلیق"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "Awami Nastaliq is a comprehensive Nastaliq-style Arabic-script font developed by SIL International and designed primarily by Jonathan Kew. It covers languages such as Urdu, Persian, Panjabi (Shahmukhi), Kurdish (Sorani), Saraiki, Sindhi, Balochi and Arabic, and uses extensive smart-font rules (Graphite, and OpenType in recent versions) to handle the complex ligatures, cascading diagonals, and vertical stacking of traditional Nastaliq calligraphy.",
+      "fa": "عوامی نستعلیق فونتی جامع به سبک خط نستعلیق است که توسط سازمان بین‌المللی سیل (SIL International) و عمدتاً به طراحی جاناتان کیو توسعه یافته است. این فونت زبان‌هایی مانند اردو، فارسی، پنجابی (شاه‌مکهی)، کردی سورانی، سرائیکی، سندی، بلوچی و عربی را پوشش می‌دهد و با به‌کارگیری قواعد هوشمند Graphite (و OpenType در نسخه‌های جدید)، لیگاچورهای پیچیده، کشیدگی‌های مورب و چیدمان عمودی حروف در خوشنویسی نستعلیق را به‌درستی بازنمایی می‌کند."
+    },
+    "note": {
+      "en": "The numerals in this font are in Urdu.",
+      "fa": "اعداد این فونت به زبان اردو می‌باشد"
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/awami-nastaliq-{weight}.woff2",
+    "weights": [400, 500, 600, 700, 800],
+    "preview-image": "./data/preview-images/awami nastaliq.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Awami_Nastaliq.zip",
+    "source-link": "https://github.com/silnrsi/font-awami",
+    "isVariable": false
   }
 ]

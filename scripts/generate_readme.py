@@ -245,15 +245,15 @@ def load_fonts() -> list:
 # Helpers
 # ---------------------------------------------------------------------------
 def slugify(text: str) -> str:
-    """Simple slug for anchor links."""
+    """Simple slug for anchor links (spaces → underscores)."""
     text = text.strip().lower()
     text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_-]+", "-", text)
-    return text.strip("-") or "font"
+    text = re.sub(r"\s+", "_", text)
+    return text.strip("_") or "font"
 def font_anchor(font: dict) -> str:
     family = font.get("family")
     if isinstance(family, str) and family.strip():
-        return family.strip().lower()
+        return re.sub(r"\s+", "_", family.strip().lower())
     name = font.get("name")
     if isinstance(name, dict):
         name = name.get("en") or next(iter(name.values()), "font")
