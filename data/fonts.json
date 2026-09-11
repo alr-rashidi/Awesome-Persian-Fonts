@@ -1193,33 +1193,6 @@
     "isVariable": true
   },
   {
-    "family": "lateef",
-    "style": {
-      "en": "Serif",
-      "fa": "سریف"
-    },
-    "Designer": {
-      "en": "SIL International",
-      "fa": "سیل اینترنشنال"
-    },
-    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "sd", "ug", "ur"],
-    "name": {
-      "en": "Lateef",
-      "fa": "لطیف"
-    },
-    "license": "OFL",
-    "description": {
-      "en": "An extended Naskh-style Arabic font named after the Sindhi mystic Shah Abdul Lateef Bhitai. Designed for linguistic documentation and extended text use, especially for Sindhi and related languages of southern Asia.",
-      "fa": "فونت عربی گسترش‌یافته به سبک نسخ به نام عارف سندی شاه عبداللطیف بهتایی. طراحی‌شده برای مستندسازی زبانی و استفاده در متن‌های طولانی، به‌ویژه برای زبان سندی و زبان‌های مرتبط جنوب آسیا."
-    },
-    "weights": [200, 300, 400, 500, 600, 700, 800],
-    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/lateef-{weight}.woff2",
-    "preview-image": "./data/preview-images/lateef.webp",
-    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Lateef.zip",
-    "source-link": "https://software.sil.org/lateef",
-    "isVariable": false
-  },
-  {
     "family": "xb-yas",
     "style": {
       "en": "Serif",
