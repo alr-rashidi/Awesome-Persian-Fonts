@@ -39,3 +39,8 @@ jobs:
             git commit -m "chore: regenerate README files [skip ci]"
             git push
           fi
+
+      - name: Update jsDelivr cache
+        run: |
+          curl --fail --show-error --silent \
+            "https://purge.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/fonts.json"
