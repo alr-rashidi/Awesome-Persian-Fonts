@@ -62,7 +62,7 @@ SUMMARY_COLUMNS = [
 # Omit "woff2" to keep it out by default.
 DETAIL_FIELDS = [
     "description",
-    "Designer",
+    "designer",
     "style",
     "license",
     "supportedLanguages",
@@ -80,7 +80,7 @@ LINK_LABELS = {
 }
 # Human-readable labels for other fields (used in detail blocks)
 FIELD_LABELS = {
-    "Designer": {"en": "Designer", "fa": "طراح"},
+    "designer": {"en": "Designer", "fa": "طراح"},
     "license": {"en": "License", "fa": "مجوز"},
     "description": {"en": "Description", "fa": "توضیحات"},
     "supportedLanguages": {"en": "Languages", "fa": "زبان‌ها"},
@@ -424,11 +424,11 @@ def format_field_value(
     # Links (source / download) → special combined handling is done outside
     if field in ("source-link", "download-link"):
         return ""  # handled together later
-    if field == "Designer":
+    if field == "designer":
         text = resolver.resolve(value, lang).strip()
         if not text:
             return ""
-        label = resolver.resolve(FIELD_LABELS.get("Designer", "Designer"), lang)
+        label = resolver.resolve(FIELD_LABELS.get("designer", "Designer"), lang)
         return f"**{label}:** {md_escape(text)}"
     if field == "supportedLanguages":
         if not isinstance(value, list) or not value:
