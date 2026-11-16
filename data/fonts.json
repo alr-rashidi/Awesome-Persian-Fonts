@@ -172,6 +172,32 @@
     "isVariable": true
   },
   {
+    "family": "kuhmard",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "designer": {
+      "en": "Ali Taghipour, Ali Shirdastian, Fatemeh Cheraghi, Fatemeh Bluekey",
+      "fa": "علی تقی‌پور، علی شیردستیان، فاطمه چراغی، فاطمه بلوکی"
+    },
+    "supportedLanguages": ["ar", "fa", "la"],
+    "name": {
+      "en": "Kuhmard",
+      "fa": "کوهمرد"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "It is a heavy Persian display font inspired by Rockwell, featuring flat, square bases/serifs and designed for headlines, posters, and packaging.",
+      "fa": "یک فونت نمایشی و سنگین فارسی با الهام از فونت Rockwell است که با پایه‌های تخت و چهارگوش، برای تیتر، پوستر و بسته‌بندی طراحی شده"
+    },
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/Kuhmard-Bold.woff2",
+    "preview-image": "./data/preview-images/kuhmard.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Kuhmard-v1.003.zip",
+    "source-link": "https://azrast.com/kuhmard.html",
+    "isVariable": false
+  },
+  {
     "family": "sepehr",
     "style": {
       "en": "Sans",
