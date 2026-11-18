@@ -198,6 +198,57 @@
     "isVariable": false
   },
   {
+    "family": "dastkhat",
+    "style": {
+      "en": "Sans",
+      "fa": "سنس"
+    },
+    "designer": {
+      "en": "Dastyar",
+      "fa": "دستیار"
+    },
+    "supportedLanguages": ["ar", "ckb", "fa", "la", "ps", "ug", "ur"],
+    "name": {
+      "en": "Dastkhat",
+      "fa": "دست‌خط"
+    },
+    "license": "OFL",
+    "description": {
+      "en": "Persian and Latin user-interface typeface published by Dastyar",
+      "fa": "قلم فارسی و انگلیسی مناسب رابط‌کاربری عرضه شده توسط دستیار"
+    },
+    "variants": [
+      {
+        "id": "normal",
+        "name": {
+          "en": "Discrete square dots",
+          "fa": "نقطه‌های مربع گسسته"
+        }
+      },
+      {
+        "id": "bar",
+        "name": {
+          "en": "Continuous square dots",
+          "fa": "نقطه‌های مربع پیوسته"
+        },
+        "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/DastkhatBar-Variable.woff2"
+      },
+      {
+        "id": "diamond",
+        "name": {
+          "en": "Diamond dots",
+          "fa": "نقطه‌های لوزی"
+        },
+        "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/DastkhatDiamond-Variable.woff2"
+      }
+    ],
+    "woff2": "https://cdn.jsdelivr.net/gh/alr-rashidi/Awesome-Persian-Fonts/data/woff2/Dastkhat-Variable.woff2",
+    "preview-image": "./data/preview-images/dastkhat.webp",
+    "download-link": "https://github.com/alr-rashidi/Awesome-Persian-Fonts/raw/refs/heads/main/data/font-files/Dastkhat-v1.201.zip",
+    "source-link": "https://github.com/dastyar-io/dastkhat-font",
+    "isVariable": true
+  },
+  {
     "family": "sepehr",
     "style": {
       "en": "Sans",
