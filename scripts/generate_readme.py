@@ -531,7 +531,8 @@ def build_font_details(
         anchor = font_anchor(font)
         current = display_name(font, lang, resolver)
         # Bidirectional link: ↑ goes back to this font's row in the summary table
-        title = f'[↑](#row-{anchor}) {current}'
+        arrow = "\u200f↑" if lang_def.get("dir") == "rtl" else "↑"
+        title = f'[{arrow}](#row-{anchor}) {current}'
         lines = [f'<a id="{anchor}"></a>', f"## {title}", ""]
         # ordered fields
         for field in DETAIL_FIELDS:
